@@ -1,0 +1,3299 @@
+#0 Begin, Text
+#1 Pat-Name:
+#2 Pat-No:
+#3 Born:
+#4 Age:
+#5 Sex:
+#6 Height:
+#7 Weight:
+#8 BP:
+#9 Med:
+#10 Rem:
+#11 Intervals
+#12 Axis
+#13 HR
+#14 RR
+#15 P
+#16 PQ
+#17 QRS
+#18 QT
+#19 QTc
+#20 T
+#21 MTA-ID
+#22 Validated by
+#23 Validated at
+#24 Recorded at
+#25 Recording date
+#26 /min
+#27 Indic:
+#30 Base load
+#31 Load step
+#32 Step duration
+#33 End of work
+#34 End of Test
+#35 Max Heartrate
+#36 PWC max
+#37 PWC 150/170
+#38 PWC rel
+#39 Max BP
+#40 Max BP(Syst)*HR
+#41 End criteria
+#42 Max load
+#45 HEARTRATE [/min]
+#46 Axis
+#47 P
+#48 QRS
+#49 Interpretation
+#50 Load
+#51 Speed/Slope
+#52 Interval
+#53 HR
+#54 BP
+#55 P   Y   D
+#56 VES
+#57 Rhythm
+#59 mm/s
+#60 mm/mV
+#61 m²
+#62 ms
+#63 µV
+#80 Load [W]
+#81 Mets
+#82 HR [/min]
+#83 BP [mmHg]
+#84 [mV]
+#85 [ms]
+#86 cm
+#87 kg
+#88 in
+#89 lb
+#100 BICYCLE
+#101 ________
+#106 Step Protocol
+#107 ST-DIAGRAM:
+#108 ST - Amplitude [mm]
+#109 ST - Slope [mV/s]
+#110 CYCLES
+#111 Pre load
+#112 1. Load step
+#113 2. Load step
+#114 3. Load step
+#115 Max load
+#116 1. Post max load
+#117 2. Post max load
+#118 : = End of Work
+#119 Max. ST
+#120 Recovery
+#121 ST-Amplitude [mm]
+#122 ST-Slope [mV/s]
+#123 End of Test
+#124 Remaining
+#125 Full disclosure stopped
+#150 Interpretation
+#151 Interpretation not printed out
+#200 TREADMILL
+#201 ___________
+#202 Protocol No
+#250 Protocol ID cannot be empty!
+#251 Protocol ID already exists!
+#252 Default protocol cannot be deleted!
+#253 Delete protocol?
+#300 Resting ECG
+#301 Exercise ECG
+#302 Spirometry
+#303 SA ECG
+#304 Resting rhythm
+#305 Ergo Spirometry
+#306 Holter ECG
+#307 Long-term BP
+#308 LF8 - Spirometry
+#449 SLOPE/SPEED[km/h]
+#451 BLOODPRESSURE [mmHg]
+#452 LOAD [W]
+#470 =
+#471 /
+#500 -
+#501 Male
+#502 Female
+#504 -
+#505 Caucasian
+#506 Black
+#507 Oriental
+#508 Hispanic
+#509 Asian
+#510 Mexican
+#511 Undefined
+#512 Undefined
+#513 Undefined
+#514 Undefined
+#515 Undefined
+#516 Undefined
+#517 Undefined
+#518 Undefined
+#519 Undefined
+#600 Name:
+#601 ID:
+#602 Born:
+#603 Age:
+#604 Height:
+#605 Weight:
+#606 BP:
+#607 Med:
+#608 Ind:
+#609 Rem:
+#610 Phys:
+#611 MTA:
+#612 Dept:
+#613 Room:
+#614 Sex:
+#615 Reserve (615)
+#616 Reserve (616)
+#617 Reserve (617)
+#618 Reserve (618)
+#619 Reserve (619)
+#620 - - Please do not change Texts
+#621 Name------------------------------------
+#622 ID--------------------------------------
+#623 Born------------------------------------
+#624 Age-------------------------------------
+#625 Sex-------------------------------------
+#626 Height----------------------------------
+#627 Weight----------------------------------
+#628 BP--------------------------------------
+#629 Med--(Line 1)---------------------------
+#630 (Rec)Remark1----------------------------
+#631 Indication------------------------------
+#632 (Rec)Remark3----------------------------
+#633 (Rec)Remark4----------------------------
+#634 Med--(Line 2)---------------------------
+#635 Med--(Line 3)---------------------------
+#636 Ref.Physician---------------------------
+#637 Aqr.Inst.-------------------------------
+#638 Aqr.Dept.-------------------------------
+#639 Room------------------------------------
+#640 Technician------------------------------
+#641 Insurance-------------------------------
+#642 InsuranceType---------------------------
+#643 (Pat)Remark3----------------------------
+#644 (Pat)Remark4----------------------------
+#650 AqrInst
+#651 AqrDept
+#652 AnaInst
+#653 AnaDept
+#654 RefPhys
+#655 Technician
+#656 CaseNo
+#657 Room
+#658 Remark 1
+#659 Remark 2
+#660 Remark 3
+#661 Remark 4
+#662 None
+#700 PatId
+#701 Lastname
+#702 SecondLastname
+#703 Firstname
+#704 Date of Birth
+#705 Sex
+#706 Ethnic
+#707 Pacemaker
+#708 Remark 1
+#709 Remark 2
+#710 Remark 3
+#711 Remark 4
+#712 Last activity
+#713 Since:
+#714 Typ:
+#715 Case No.:
+#720 PM-Freq.:
+#721 RR-Int.:
+#722 PM-Duration:
+#723 Int. VV:
+#724 AV:
+#725 PM-Duration V:
+#726 A:
+#750 PatId
+#751 Recording Date
+#752 Recording Time
+#753 Record Type
+#754 Record SubType
+#755 Validated
+#756 Printed
+#757 Sent
+#758 Acquiring Institute
+#759 Acquiring Department
+#760 Analyzing Institute
+#761 Analyzing Department
+#762 Technician
+#763 Validated by
+#764 Referring Physician
+#765 Remark 1
+#766 Remark 2
+#767 Remark 3
+#768 Remark 4
+#769 Volume
+#770 Directory
+#771 FileName
+#772 BaselineFilter
+#773 MainsFilter
+#774 MainsFrequency
+#775 Acquiring DeviceType
+#776 Acquiring DeviceRevision
+#777 Analyzing ProgramRevision
+#778 Weight
+#779 Height
+#780 BloodPressure
+#781 Sys
+#782 Dia
+#783 Resting ECG
+#784 Exercise ECG
+#785 Spiro
+#786 NEW
+#787 Selection-Tree for Medications
+#788 Medications
+#789 Exported
+#790 Export Record ?
+#800 PS/Rest/Format0
+#801 PS/Rest/Format1
+#802 PS/Rest/US-Format2
+#803 PS/Rest/Format3
+#804 PS/Rest/Format4
+#805 PS/Rest/Format5
+#820 PS/Stress/SBPRNT0
+#821 PS/Stress/STPRNT0
+#822 PS/Stress/Format2
+#840 PS/Spiro/Format0
+#841 PS/Spiro/Format1
+#842 PS/Spiro/Format2
+#850 Resolution of lines
+#851 Fine
+#852 Middle
+#853 Thick
+#890 Page
+#891 - - Page 1 of 3 - -
+#892 - - Page 2 of 3 - -
+#893 - - Page 3 of 3 - -
+#894 - - Page 1 of 2 - -
+#895 - - Page 2 of 2 - -
+#896 - - Summary - -
+#897 - - ST-Trends - -
+#898 - - Averages - -
+#899 - - Rhythms - -
+#900 - - Step Protocol - -
+#901 - - FVC - Test - -
+#902 - - SVC - Test - -
+#903 - - MVV - Test - -
+#904 - - MV - Test - -
+#905 - - QT - Dispersion - -
+#906 - - Late - Potentials - -
+#907 - - Rhythm Events - -
+#908 - - Interval Load Printout - -
+#909 - - Interpretation - -
+#915 SCHILLER AG
+#916 &File
+#920 Interval Load
+#921 FD-File does not exist: Step-Print not possible !
+#930 Yes
+#931 No
+#932 OK
+#933 Cancel
+#934 Abort
+#935 Retry
+#936 Ignore
+#937 All
+#938 Help
+#940 Warning
+#941 Error
+#942 Information
+#943 Confirmation
+#999 ANY HOSPITAL-NAME
+#1000 You are not authorized for
+#1001 Please contact our Sales - Manager
+#1010 MAIN MENU
+#1012 Please define Acquiring Department in System settings
+#1020 New Login
+#1021 User-ID
+#1022 Password
+#1023 Domain
+#1030 Import Schiller Files
+#1031 Filename
+#1032 Log errors into Logfile: ImpError.TXT
+#1040 Archive
+#1041 Archiving
+#1042 Special Tasks
+#1043 Settings
+#1044 Archive Directory
+#1045 Directory is ReadOnly
+#1046 Destination volume has no label
+#1047 Could not create directory
+#1048 Archiv Rebuild
+#1049 Patient Name
+#1050 Path
+#1051 In archive
+#1052 In dir
+#1053 To Arch
+#1054 Log
+#1055 All archived records
+#1056 Errors
+#1057 Lapo
+#1058 RestRhythm
+#1061 Available Tasks to do
+#1062 Delete origin Recordings (when archived enough times)
+#1063 Read directory
+#1064 Delete Recording Reference from Archive Index up to Date
+#1065 Reset Archive Flag on Recordings to State 'NOT ARCHIVED'
+#1066 Make new empty Index
+#1067 Find Directory
+#1068 Set Date
+#1070 Select directory
+#1071 Please Select
+#1072 Select directories from list below
+#1073 Directory not valid!
+#1074 Path too long!
+#1075 Path not valid!
+#1076 Too many subdirectories (>3000)!
+#1081 Archive Conditions
+#1082 Validated
+#1083 Printed
+#1084 Sent
+#1085 Exported
+#1086 Box Deletion
+#1087 All recordings
+#1088 Delete files automatic
+#1089 Files to save
+#1090 incl. full disclosure files
+#1091 Echo-pictures
+#1092 Create Subdirectories
+#1093 Include Subdirectories
+#1094 Recording Date
+#1095 Older than days:
+#1096 Between
+#1097 First
+#1098 Last
+#1099 Too many subdirectories!
+#1100 Restore Database
+#1101 File Name
+#1102 Patients
+#1103 Recordings
+#1104 Rest
+#1105 Exercise
+#1106 Total
+#1107 Drive
+#1108 Spiro
+#1109 Errors
+#1110 SAECG
+#1111 Selected Patient
+#1120 Drug Classes and Drugs
+#1121 Drug Classes
+#1122 Drugs
+#1123 Edit Drug Class
+#1124 Class-ID
+#1125 Drug Class Name
+#1126 Drug Class
+#1127 Drug Code
+#1128 Mnemonic Code
+#1129 Drug Name
+#1130 Class Name
+#1131 Code
+#1132 Drug Name
+#1133 Edit Drug
+#1160 Users, Departments, Institutes
+#1161 Institutes
+#1162 Departments
+#1163 Users
+#1170 Institute
+#1171 Institute Name
+#1172 Address 1
+#1173 Inst-ID
+#1174 Institute name
+#1175 Edit Institute
+#1176 Address 2
+#1190 Department-ID
+#1191 Name
+#1192 Dept-ID
+#1193 Department name
+#1194 Edit Department
+#1200 User-ID
+#1201 User Name
+#1210 Edit User
+#1211 Password
+#1212 Active from Date
+#1213 Active to Date
+#1214 Security Level
+#1215 Visitor / Read only
+#1216 Change Patient Data and Communication
+#1217 Validate Interpretation, Deletion of ECG's
+#1218 Type of Activities (for Selection of Users)
+#1219 Technician / Recording the ECG's
+#1220 Overreading / Validating
+#1221 Referring / Ordering Physician
+#1222 All Activities
+#1223 No Activities
+#1224 Special Rights
+#1225 Archive Functions
+#1226 System Administration
+#1227 Assign
+#1228 Validate
+#1229 Exporting
+#1230 Allow to change print settings
+#1231 Limited access to recordings
+#1232 View Recording Filter
+#1233 Re-Validation
+#1234 Disable man. Login
+#1249 Communication with SemaTool
+#1250 System Configuration
+#1251 Formats
+#1252 Conversion
+#1253 Printer
+#1254 Send
+#1255 AddressBook
+#1256 Transfer
+#1257 Other System
+#1258 Exercise
+#1259 Filters
+#1260 Lead Order
+#1261 Standard
+#1262 Cabrera
+#1265 Units
+#1266 Metric
+#1267 US
+#1268 Pat-ID Format
+#1269 Date Format
+#1270 Time Format
+#1271 Acquiring Institute
+#1272 Acquiring Department
+#1273 Analysing Institute
+#1274 Analysing Department
+#1275 Default Institutes and Departments
+#1276 Language
+#1277 Units
+#1278 km/h
+#1279 mph
+#1280 Old Date Format
+#1281 Medication to
+#1282 Remark to
+#1283 User-ID to
+#1284 MTA-ID to
+#1285 These settings are only active when importing from diskette!
+#1286 You must restart
+#1290 Resting ECG
+#1291 Ex ECG
+#1292 Myogram-Filter
+#1293 Always OFF
+#1294 Always ON
+#1295 As selected for viewing
+#1296 You must restart the application to activate the changes!
+#1297 Date & Time Format
+#1300 R ECG
+#1301 Ex ECG
+#1302 Colours
+#1303 SEMA2 / GDT settings
+#1304 SEMA2 settings
+#1305 GDT settings
+#1306 Use static file extension for exported GDT file
+#1307 File extension (max 3 characters)
+#1308 Import/Export handling
+#1309 File generated at:
+#1310 Display Average
+#1311 As Average
+#1312 As Rhythm
+#1313 Rhythm Leads
+#1314 3 Leads
+#1315 6 Leads
+#1316 12 Leads
+#1317 Lead1
+#1318 Lead2
+#1320 Validation export
+#1321 Reception export
+#1322 Data export enabled
+#1323 RST-File
+#1324 Data export enabled
+#1325 RST-File
+#1326 Export address
+#1327 Call ExportDLL
+#1328 Measurements in GDT
+#1329 Check PatID format
+#1330 Show ethnic
+#1331 Generate Patient-ID automatically
+#1332 No Patient ID format check
+#1333 Swedish Patient ID Check
+#1334 Patient-ID Format
+#1335 Edit Patient  before examination start
+#1336 Show Checklist after Restart
+#1337 Generate PDF Report
+#1338 Export Interpretation only if validated
+#1339 Invoke LF8 export
+#1340 Send Recording
+#1341 First time to send
+#1342 Ful-Files Handling
+#1343 Other
+#1344 PEF in [l/min]
+#1345 No Measurements Export
+#1346 Attach Measurements to Interpretation
+#1347 Preformatted Export of Measurements
+#1348 Export Measurements as structured parameter list
+#1350 Recordings from Transfer Directories
+#1351 Phone Numbers
+#1352 EMERGENCY FROM DEVICE
+#1353 Configuration
+#1354 Check datas
+#1355 &File
+#1356 &Edit
+#1357 E&xit
+#1360 ConnName
+#1361 Full Name
+#1362 Phone Number
+#1363 Type
+#1364 Protocol
+#1365 Dev
+#1366 Baud
+#1367 Par
+#1368 Stop
+#1369 Edit Address
+#1370 ConnName
+#1371 Full Name
+#1372 Type
+#1373 Phone no
+#1374 Protocol
+#1375 Device
+#1376 Baudrate
+#1377 Parity
+#1378 Stopbits
+#1380 Patient Data from other Systems
+#1381 Baud
+#1382 300
+#1383 600
+#1384 1200
+#1385 2400
+#1386 4800
+#1387 9600
+#1388 19200
+#1389 38400
+#1390 None
+#1391 Odd
+#1392 Even
+#1393 Mark
+#1394 Space
+#1395 1
+#1396 2
+#1397 Modem
+#1398 Ch 1
+#1400 User Configuration
+#1401 Start Forms
+#1402 Defaults
+#1403 Defaults for DB
+#1404 Colors / Antialiasing
+#1405 Button order
+#1406 Button
+#1410 Startup Form
+#1411 Main Form
+#1412 Select Pat
+#1413 Make an ECG
+#1414 Select Rec
+#1415 Make ECG
+#1416 Edit Patient First
+#1417 Direct
+#1420 Resting ECG
+#1421 Default Screen
+#1422 ECG-Main
+#1423 Rhythms
+#1425 Display Average
+#1426 as Average
+#1427 as Rhythm
+#1430 Rhythm Screen
+#1431 3 Leads
+#1432 6 Leads
+#1433 12 Leads
+#1434 2x6 Leads
+#1435 Rhythm Lead 1
+#1436 Rhythm Lead 2
+#1440 Ex ECG
+#1441 Default Screen
+#1442 Exercise Main
+#1443 Average Complexes
+#1444 ST-Trends
+#1445 J-Pt
+#1446 Set J-Pt
+#1447 Show (MIN) Factor for BP and HR
+#1448 Dynamic centering of leads
+#1449 ST@J +
+#1450 X-Alignment
+#1451 Y-Alignment
+#1452 Show Max BPxHR as:
+#1453 (Max. BP x HR) div 100
+#1454 Max. BP x HR
+#1455 Show PWC or reached Load
+#1456 Show PWC
+#1457 Show interp. Load
+#1458 Additionally show Watt's in MET's
+#1459 Show Interpretation dialog in recovery
+#1460 GridBackground
+#1461 GridForeground
+#1462 First Curve
+#1463 Second Curve
+#1464 Lead Text Color
+#1465 Colour for even table rows
+#1466 Colour for odd table rows
+#1470 ComPorts
+#1471 COM
+#1472 ECG port (AT-104)
+#1473 Ergo port
+#1474 BP port
+#1480 FEV / FVC Ratio
+#1481 Use always FVC
+#1482 Use always SVC (if exists)
+#1483 Use FVC if bigger than SVC (if exists)
+#1490 Edit Heartrate
+#1491 HeartRate
+#1492 Edit ES
+#1493 Beats
+#1494 Save value as max. HR
+#1500 Directories
+#1501 Recordings
+#1502 Database
+#1503 Import
+#1504 Normal
+#1505 Emergency
+#1506 Database Export 3
+#1507 Database Import 1
+#1508 Database Import 2
+#1509 Database Import 3
+#1510 Archive
+#1511 Help
+#1512 Archive 3
+#1513 Validation Export
+#1514 Export
+#1515 Texts
+#1516 Logs
+#1517 Search Drives
+#1518 Fulldisclosure Files
+#1520 Programs directories
+#1521 Program directory (incl. LF8.exe)
+#1522 Working directory
+#1523 Export list
+#1524 Synchronize
+#1530 Edit Texts
+#1531 File
+#1532 Text
+#1533 Save
+#1534 Exit
+#1535 Find
+#1536 Find Next
+#1537 File has been modified. Save changes?
+#1538 Text not found!
+#1540 Edit Acronyms
+#1550 Internal Printer Header
+#1551 Actual Field Size
+#1552 Available Texts (Nr. 600 - 619)
+#1553 Available Fields
+#1570 Individual Tables
+#1571 Insurance
+#1572 ID
+#1573 Insurance Name
+#1574 Insurance Type
+#1577 Remark 1 ( Rec )
+#1580 Cost Type
+#1581 Tax Points
+#1584 Indication
+#1590 Data Entry
+#1591 ID
+#1592 Name
+#1593 Tax Points
+#1600 CS-200 Upgrade
+#1601 Upgrade Code:
+#1602 Initialize:
+#1603 Setup:
+#1604 Individual Code:
+#1605 Serial Nr.:
+#1606 CS-200
+#1607 Show options
+#1608 Set options
+#1609 AT-104 Options
+#1610 AT-104 PC
+#1620 System Options
+#1621 Resting ECG:
+#1622 Measurements
+#1623 Interpretation
+#1624 Vector Loops
+#1625 PM-Measurements
+#1626 Exercise ECG:
+#1627 Rhythm Analysis
+#1628 Fulldisclosure
+#1629 Late Potential
+#1630 HR-Variability
+#1631 Spirometry
+#1632 Resistance
+#1633 ECG Management:
+#1634 > 200 Recordings
+#1635 Network Functions
+#1636 QT-Dispersion
+#1637 Exec
+#1638 Validation
+#1639 Data management:
+#1640 PDF reporting
+#1641 Resting Rhythm
+#1650 UNNAMED
+#1660 Bicycle type
+#1661 Max load
+#1662 Treadmill
+#1663 Max Speed
+#1664 Min Speed
+#1665 Max elev
+#1666 Rec pre exercise
+#1667 Supine
+#1668 Sitting
+#1669 Standing
+#1670 ST-Amplitude
+#1671 Absolute
+#1672 Relative
+#1673 Bloodpressure device
+#1675 Set Ergo-Device per hand
+#1680 QRS-Trigger
+#1681 On
+#1682 Off
+#1683 Polarity
+#1684 Pos
+#1685 Neg
+#1686 Length
+#1690 Rhythmleads to save
+#1691 First Lead on Rhythm-View
+#1692 Default Rhythm-View
+#1693 No of Fulldisclosure-Files to keep
+#1694 Step-Print Report
+#1695 Limit numbers of Fulldisclosure files
+#1696 Watt / METS
+#1700 DC-Output
+#1701 Signal Output
+#1702 Amplification
+#1705 DC-Input
+#1706 always at bottom
+#1710 Definition of Exercise-Printout
+#1711 Print Components
+#1712 Summary
+#1713 ST-Trends
+#1714 Averages
+#1715 Rhythm
+#1716 Rhythm Events
+#1717 Step Protocol
+#1719 Average-Format
+#1720 Format
+#1721 Compact
+#1722 All
+#1723 Show Reference Beat
+#1725 Rhythm-Format
+#1726 Format
+#1727 Lead 1
+#1728 Lead 2
+#1729 Lead 1 + 2
+#1730 Grid in Background
+#1731 Color Printer
+#1733 Amplitude
+#1734 Automatic
+#1735 Reduced
+#1736 I  - aVF  [5mm/mV]
+#1737 V1 - V6  [5mm/mV]
+#1740 Calculate automatic Grid thickness
+#1741 Print Interpretation only if validated
+#1742 Adjusting the page format
+#1743 No
+#1744 Default
+#1745 Format
+#1746 Print "All Formats"
+#1750 Definition of Resting-ECG Printout
+#1800 Exercise Printout-Defaults
+#1805 Manual printout
+#1810 Resting-ECG Printout-Defaults
+#1900 HIS Search
+#1901 Search by Pat-ID
+#1902 Note:
+#1903 Only use Patient ID!
+#1904 Send Request to Server with ID =
+#1905 ?
+#1906 Yes
+#1907 Cancel
+#1908 Extended Search...
+#1909 Firstname:
+#1910 Birthdate (dd.mm.yyyy):
+#1911 Lastname:
+#1912 Send request...
+#1913 Search in HIS...
+#1920 Error: Time limit!
+#1921 Request with ID:
+#1922 Wait for response...
+#1923 Communication server not ready!
+#1924 Request with:
+#2000 PATIENT / RECORD  SELECTION
+#2001 Search by Patient Name
+#2002 Search by Patient-ID
+#2003 Patient
+#2004 Recording
+#2005 Next New Rec
+#2006 Record
+#2007 PatData
+#2008 Send
+#2009 Send Patient Data
+#2010 Patients
+#2011 Patient-ID
+#2012 Name
+#2013 Search for
+#2014 Refresh
+#2015 DB
+#2020 Recordings
+#2021 T
+#2022 Date
+#2023 Time
+#2024 V
+#2025 P
+#2026 S
+#2027 E
+#2028 A
+#2038 Browser
+#2039 Start
+#2040 Edit Patient
+#2041 Last Name
+#2042 First Name
+#2043 Second Last Name
+#2044 Date of Birth
+#2045 Ethnic
+#2046 Insurance
+#2047 Insurance Type
+#2048 Remark 3
+#2049 Remark 4
+#2050 Pacemaker
+#2051 Since
+#2052 Type
+#2053 Sex
+#2054 -
+#2055 M
+#2056 F
+#2057 Last Activity
+#2058 Age
+#2059 RecDate
+#2060 PM
+#2061 Last Case Number
+#2070 Delete Patient
+#2071 Patient has Recordings. Please delete them first!
+#2072 Do you really want to delete this Patient?
+#2080 Patient / Recording Data
+#2081 State of Rec
+#2082 Additional Data
+#2083 Medication
+#2084 History Diag
+#2085 Remarks
+#2086 Patient
+#2090 Technician
+#2091 Acquiring Department
+#2092 Acquiring Institute
+#2093 Validated by
+#2094 Analyzing Departm
+#2095 Analyzing Institute
+#2096 SBS
+#2097 SSF
+#2098 Mains Frequency
+#2099 Resting ECG
+#2100 Exercise ECG
+#2101 SPIRO
+#2102 New Recording
+#2103 Name
+#2104 Date / Time
+#2105 New Pat
+#2106 Room
+#2107 Requesting Department
+#2108 Requesting Institute
+#2109 Following Recording
+#2110 Ref. Physician
+#2111 Weight
+#2112 Height
+#2113 BP
+#2114 Sys
+#2115 Dia
+#2116 Remark 1
+#2117 Cost Type
+#2118 Remark 3
+#2119 Remark 4
+#2120 Indication
+#2121 Select
+#2122 CaseNo
+#2123 RecRem3
+#2124 RecRem4
+#2125 ID
+#2126 Name
+#2130 Medications
+#2131 Select Medication
+#2132 Lead order
+#2133 Firstpage
+#2134 Second
+#2135 History
+#2136 Easy-track Studie
+#2150 Caucasian
+#2151 Black
+#2152 Oriental
+#2153 Undefined
+#2154 Undefined
+#2155 Undefined
+#2156 Undefined
+#2157 Undefined
+#2158 Undefined
+#2159 Undefined
+#2160 Undefined
+#2161 Undefined
+#2162 Undefined
+#2163 Undefined
+#2164 Undefined
+#2170 Acquiring
+#2171 Requesting
+#2172 Analysing
+#2175 Institute
+#2176 Department
+#2177 ID
+#2178 Name
+#2179 No of records
+#2189 Type
+#2190 Resting ECG
+#2191 Exercise ECG
+#2192 LF8-Spirometry
+#2193 Spiro
+#2194 LaPo
+#2195 RestRhythm
+#2196 Holter
+#2197 ---
+#2198 Ergo-Spiro
+#2199 Request Holter
+#2200 New Holter
+#2201 ---
+#2202 ---
+#2203 Start LF8
+#2204 Start external application
+#2205 New BP-Holter
+#2206 Request BP-Holter
+#2500 Patient Maintenance
+#2501 Define which Patient(s) shall be deleted
+#2502 Delete Patients
+#2503 &Close
+#2504 NOTE: Only Patients without examination(s) will be deleted!
+#2505 Start Patient Maintenance...
+#2506 Patient's last active date
+#2507 Older than days:
+#2508 Between
+#2509 First
+#2510 Last
+#2511 Do you really want to delete the patient(s)?
+#2600 -- Worklist Functionality --
+#2601 Display Worklist
+#2602 &Retrieve new Worklist
+#2603 &Perform Workitem
+#2604 &Cancel Workitem
+#2605 C&lose
+#2606 Patient Demographic Data
+#2607 Patient ID
+#2608 Order ID
+#2609 Location
+#2610 Ref. Physician
+#2611 Create Workitem
+#2612 &Back
+#2613 &Next
+#2614 &Finish
+#2615 Select Examination Type
+#2616 Select/Enter Referring Doctor
+#2617 Select/Enter Device Target ID
+#2618 Enter Order ID
+#2619 Enter Room ID
+#2620 Create new Workitem with following Data:
+#2621 Patient:
+#2622 Examination Type:
+#2623 Referring Doctor:
+#2624 Case Number:
+#2625 Room ID:
+#2626 Device Target ID:
+#2627 Order ID:
+#2630 Worklist
+#2631 No Workitems for this station available!
+#2632 Patient Data Only
+#2633 Do you want to cancel this workitem?
+#2634 Cannot connect to SCS!
+#2635 Retrieve Worklist automatically
+#2636 New Workitem successful created!
+#2637 New Workitem could not be uploaded!
+#3000 VALIDATION, RECORD SELECTION
+#3010 PATID
+#3012 
+#3013 
+#3014 S
+#3015 
+#3016 
+#3017 
+#3018 
+#3019 
+#3020 
+#3021 
+#3022 
+#3023 
+#3024 
+#3025 
+#3026 
+#3027 
+#3028 
+#3029 
+#3030 
+#3040 Search
+#3041 Validated
+#3042 Not validated
+#3043 Printed
+#3044 Not Printed
+#3045 Sort Order
+#3046 Date
+#3047 Pat-ID
+#3048 
+#3049 Days back
+#3050 Between
+#3051 First
+#3052 Last
+#3053 Exported
+#3054 Not Exported
+#3055 Clear
+#3056 Order ID
+#3057 Case Number
+#3058 Display number of search results
+#3059 Number of Examinations:
+#3060 Hide all other examinations in Patient Search
+#3100 TCP/IP Export
+#3101 Status
+#3102 Bytes sent
+#3110 Copy local File to Record-Destination
+#3111 System update !
+#4000 RESTING ECG ACQUISITION
+#4001 HR :
+#4010 Patient ?
+#4011 Recording done
+#4020 Select Patient
+#4030 Offline Antialiasing
+#4031 Online Antialiasing (Needs more computing performance!)
+#4032 Antialiasing
+#4040 Electrode Test
+#4041 Electrodes
+#4042 Lead
+#4043 Offset
+#4060 Select Screens
+#4061 3 Channels
+#4062 6 Channels
+#4063 12 Channels
+#4064 2 x 6 + 1
+#4065 4 x 3 + 1
+#4080 Auto ECG Formats
+#4081 ECG Format
+#4082 Header
+#4083 Extra Leads
+#4084 Average Format
+#4085 Measurement
+#4086 Interpretation
+#4087 Markers
+#4088 Unconfirmed Report
+#4089 Abnormal ECG
+#4090 Rhythms
+#4091 Rhythm 1
+#4092 Rhythm 2
+#4093 Rhythm 3
+#4094 Format 1
+#4095 Format 2
+#4096 Center Mode
+#4097 Dynamic
+#4098 Baseline
+#4110 Manual Printing
+#4111 WYSIWYG
+#4112 Defaults
+#4113 Sensitivity
+#4114 Speed
+#4115 3 Channels
+#4116 6 Channels
+#4117 12 Channels
+#4130 Layout 'Hotkey' Configuration
+#4131 Screen 1
+#4132 Screen 2
+#4133 Resolution
+#4134 Upper screen
+#4135 Below screen
+#4136 Show this Layout as Start-Layout
+#4140 Ergo-Devices
+#4141 Recording
+#4142 Saving
+#4143 Recording
+#4144 Show dialog "Automatic record time settings"
+#4145 Automatic stop of recording
+#4146 Enable automatic stop of recording
+#4147 Define duration of recording in minutes
+#4148 &OK
+#4150 Filter Settings
+#4151 Myogramm
+#4152 25 Hz
+#4153 35 Hz
+#4154 Mains Filter
+#4155 Off
+#4156 50 Hz
+#4157 60 Hz
+#4158 Schiller Filter
+#4159 Schiller Smoothing Filter (SSF)
+#4160 Schiller Baseline Filter (SBS)
+#4161 Baseline Filter
+#4162 0.05 Hz
+#4163 0.15 Hz
+#4164 0.30 Hz
+#4180 Lead Order Settings
+#4181 Lead Order
+#4182 Standard
+#4183 Cabrera
+#4184 User defined
+#4185 1
+#4186 2
+#4187 3
+#4188 4
+#4189 5
+#4190 6
+#4191 7
+#4192 8
+#4193 9
+#4194 10
+#4195 11
+#4196 12
+#4200 Calculations
+#4201 Constants:
+#4202 Variables:
+#4203 Weight in
+#4204 Height in
+#4205 Body-Surface
+#4206 Expected Load for men [W]
+#4207 Expected Load for women [W]
+#4208 Test
+#4209 Expected Load
+#4210 Calculate
+#4211 Test your formulas
+#4212 Select type of expected load calculation
+#4213 SCHILLER type
+#4214 W150/W170
+#4215 Wassermann
+#4220 Electrodes Settings
+#4221 ECG Electrodes
+#4222 DC Input
+#4223 Patient Cable
+#4224 10 Leads
+#4225 13 Leads
+#4226 14 Leads
+#4227 Standard Leads
+#4228 None
+#4229 Standard
+#4230 Children
+#4231 Lead 1
+#4232 Lead 2
+#4233 Lead 3
+#4234 Lead 4
+#4235 Lead 5
+#4236 Lead 6
+#4237 Lead 7
+#4238 Lead 8
+#4239 Lead 9
+#4240 Lead 10
+#4241 Lead 11
+#4242 Extra Leads
+#4243 None
+#4244 Extended
+#4245 Nehb
+#4246 Frank 13
+#4247 Frank 14
+#4248 Frank bipolar
+#4249 Frank derived A
+#4250 Frank derived B
+#4251 Frank derived C
+#4270 Card Info
+#4271 Serial Number
+#4272 Battery Voltage
+#4273 Type Number
+#4274 Printhead Temperature
+#4275 Versions
+#4276 SDS
+#4277 System Program
+#4278 Resting ECG
+#4279 Exercise ECG
+#4280 Late Potential
+#4281 RR Variability
+#4282 Printer Software
+#4283 ECG Amplifier
+#4284 Ergo Spirometrie
+#4285 MK 13-1 Address
+#4290 Choose calculation criterion for max. load calculation
+#4291 Criterion A: Max. load
+#4292 Criterion B: Integration
+#4293 Criterion C: Time
+#4294 seconds
+#4295 Max. Load calculation:
+#4310 Basics
+#4311 First
+#4312 Second
+#4313 Third
+#4314 Direct Print
+#4315 Direct View
+#4316 Destination
+#4317 Internal Printer
+#4318 External Printer
+#4319 Internal Printout
+#4350 PM-Measurement
+#4351 PM-Frequency:
+#4352 Interval:
+#4353 Pulsewidth:
+#4370 Warning!
+#4371 One or several precordial leads are off.
+#4372 Measurements might not be reliable.
+#4373 Interpretation is not possible.
+#4374 To make a recording
+#4375 connect all electrodes first.
+#4380 Error!
+#4381 Cannot make a recording
+#4382 without all extremity electrodes
+#4383 fixed properly.
+#4384 Please complete / correct electrode
+#4385 hook-up before making a recording!
+#4400 Error!
+#4401 Before leaving, a Patient must be selected!
+#4420 none
+#4421 1 page
+#4422 2 pages
+#4423 4 x 3 [25mm/s]+ 1 rhythm
+#4424 none
+#4425 4 x 3 [25mm/s]+ 2 rhythms
+#4426 4 x 3 [50mm/s]+ 2 rhythms
+#4427 2 x 6 [50mm/s]+ 2 rhythms
+#4428 1 x 12 [25mm/s]+ 3 rhythms
+#4500 VCG
+#4501 Vectors
+#4502 Show Vectors
+#4503 NEW
+#4504 P On
+#4505 QRS On
+#4506 QRS Off
+#4507 T Off
+#4508 CALC
+#4509 X
+#4510 Y
+#4511 Z
+#4512 Sagittal
+#4513 Horizontal
+#4514 Frontal
+#4515 Momentary Value
+#4516 Vector
+#4517 Elevation
+#4518 Azimuth
+#4519 P Area
+#4520 QRS Area
+#4521 T Area
+#4522 Sokolow 1
+#4523 Sokolow 2
+#4524 Sokolow 3
+#4525 Sokolow 4
+#4526 CV
+#4527 CP
+#4528 MVD
+#4529 P 12
+#4530 Area
+#4531 EL
+#4532 AZ
+#4533 Speed
+#4534 P
+#4535 QRS
+#4536 T
+#4537 Calculation
+#4538 Max Vector
+#4539 Maximum Vector
+#4540 Loop Areas
+#4541 Rx + Rz (mV)
+#4600 TWA
+#4601 VCG
+#4602 Statistic
+#4603 FFT
+#4604 Loop Area / Orientation
+#4605 P-Loop
+#4606 QRS-Loop
+#4607 T-Loop
+#4608 I    :
+#4609 II   :
+#4610 III  :
+#4611 IV   :
+#4612 V    :
+#4613 VI   :
+#4614 VII  :
+#4615 VIII :
+#4616 MP   :
+#4617 LVH Criteria
+#4618 Cornell / MVD / LeadProd
+#4619 Framingham
+#4620 Framingham1
+#4621 Framingham2
+#4622 Framingham3
+#4623 Sokolow
+#5000 EX  ECG  ACQUISITION
+#5002 Ergo
+#5006 Protocol
+#5007 Ergo / BP
+#5008 Protocol:
+#5009 Ergo / BP:
+#5010 HR:
+#5011 BP:
+#5012 km/h
+#5013 mph
+#5014 km/h/step
+#5015 mph/step
+#5016 %/step
+#5020 Bicycle Protocol
+#5021 Prot-ID
+#5022 Description
+#5023 Base Load
+#5024 Load Step
+#5025 Duration
+#5026 Max. Load
+#5027 Ramp
+#5028 Pre Exercise
+#5029 Load
+#5030 Base
+#5031 Recover
+#5032 List
+#5033 Recovery Load
+#5034 Automatic
+#5035 Exercise
+#5036 Recovery
+#5037 Load
+#5038 Automatic
+#5039 Starting Interval
+#5040 No Stepdown
+#5041 Stepdown Rate
+#5042 Stepdown
+#5043 % of Max. Load
+#5044 Auto BP meas
+#5045 Select Protocol
+#5046 Recover save
+#5047 Interval
+#5048 Speed
+#5049 Save Interval
+#5050 Cyclic Every
+#5051 Use List
+#5052 Step
+#5053 Time
+#5055 Every step
+#5056 Every second step
+#5057 Every minute
+#5058 Cyclic
+#5059 Acyclic
+#5060 Use List
+#5061 Generate
+#5062 Insert
+#5063 Delete
+#5064 Step
+#5065 T
+#5066 Duration
+#5067 Load
+#5068 Generate max. Steps:
+#5069 Online METS-Interpolation
+#5070 Arrythmie-detection
+#5071 Setpduration (#STEPDURATION#s) less than METS interpolation time (#INTERPOLATIONTIME#s)!
+#5072 METS-Interpolation will be deaktivated during this test!
+#5075 Switch directly to recovery stage
+#5076 View lead as big QRS - Complex:
+#5077 Calculate load as Watt per kg
+#5078 Interpolate METS Online
+#5080 Treadmill
+#5081 Start Speed
+#5082 First Interval
+#5083 Speed Increment
+#5084 Elevation
+#5085 mph
+#5086 %
+#5087 Ramp
+#5090 Target Mets
+#5091 Normal Speed
+#5092 Max. Grade
+#5093 Duration
+#5094 Rate of Change
+#5095 Speed
+#5096 Gradient
+#5097 Save after
+#5098 BP-Measurement after
+#5100 Edit Treadmill Protocol
+#5101 Distance per Step
+#5102 Speed
+#5103 Elevation
+#5104 Base Speed
+#5105 Base Elevation
+#5106 Speed Increment
+#5107 Elevation Increment
+#5108 Max. Speed
+#5109 Max. Elevation
+#5110 Step
+#5111 Duration
+#5112 Speed
+#5113 Elevation
+#5115 km/h
+#5116 mph
+#5120 Step Protocol
+#5121 Step
+#5122 min
+#5123 mph
+#5124 %
+#5125 METs
+#5129 Select Protocol
+#5130 Step
+#5131 Ramp
+#5132 Conc
+#5133 Type
+#5134 ID
+#5135 Description
+#5136 Use as Default
+#5137 Bicycle
+#5138 Treadmill
+#5140 Heart Rate Alarm
+#5141 Heart Rate Alarm
+#5142 90% of 220 - Age
+#5143 200 - Age
+#5144 M: 205 - 1/2 Age;  F: 220 - Age
+#5145 Manual
+#5146 No Alarm
+#5147 /Min
+#5148 220 - Age
+#5149 208 - 0.7 * Age
+#5150 Audio alarm
+#5160 Change Load
+#5161 New Load
+#5162 Change Speed
+#5163 New Speed
+#5164 Change Elevation
+#5165 New Elevation
+#5166 Increment
+#5170 Recovery Printouts
+#5171 Printout After
+#5172 Cyclic Every
+#5180 CHEST PAIN
+#5181 DIZZINESS
+#5182 DYSPNEA
+#5183 ECG CHANGES
+#5184 ARRHYTHMIA
+#5185 FATIGUE
+#5186 TARGET HR ATTAINED
+#5187 BP BEHAVIOUR
+#5188 DECREASED HR DURING EXERCISE
+#5189 DECREASE OF BP
+#5200 Time
+#5201 Load
+#5202 HR
+#5203 BP
+#5204 ST
+#5205 P Y D B R ES
+#5206 ES
+#5210 VES
+#5211 VES(Step)
+#5212 VES(Sum.)
+#5215 mm:ss
+#5216 [W]
+#5217 [/min]
+#5218 [mmHg]
+#5219 [mm]
+#5220 Step
+#5221 Load
+#5222 Step
+#5223 Test
+#5224 Protocol
+#5225 Mets
+#5226 [/min]
+#5227 Exp. Load
+#5228 Exp. METs
+#5230 [mm]
+#5231 [mV/s]
+#5232 Watt
+#5233 W
+#5240 Symptoms
+#5241 Pain
+#5242 Dyspnea
+#5243 Dizziness
+#5244 Borg
+#5245 Respiration
+#5250 Bloodpressure
+#5251 Systolic
+#5252 Diastolic
+#5253 mmHg
+#5260 Time
+#5261 Mets
+#5262 Speed
+#5263 Elevation
+#5264 HR
+#5265 BP
+#5266 ST
+#5267 P Y D B R ES
+#5268 ES
+#5275 mm:ss
+#5277 [km/h]
+#5278 [%]
+#5279 [/min]
+#5280 [mmHg]
+#5281 [mm]
+#5285 mm:ss
+#5287 [mph]
+#5288 [%]
+#5289 [/min]
+#5290 [mmHg]
+#5291 [mm]
+#5292 P
+#5293 Y
+#5294 D
+#5295 B
+#5296 R
+#5300 Supine
+#5301 Sitting
+#5302 Standing
+#5303 Start
+#5304 Next
+#5305 Hold
+#5306 Recover
+#5307 End Test
+#5308 Skip
+#5309 Begin
+#5310 ST-Ref
+#5311 End
+#5312 Full Rec
+#5313 Criteria
+#5314 ST-ampl/slope
+#5315 Load/HR/BP
+#5316 Symptoms
+#5320 Sup
+#5321 Sit
+#5322 Sta
+#5327 Ref
+#5328 Pre
+#5329 Load
+#5330 User
+#5339 Rec
+#5359 STMax
+#5360 Pause
+#5378 EoT
+#5390 Warning!
+#5391 Too large increase of speed could lead to an accident!
+#5392 Do you want to continue?
+#5393 It is not possible to end the test now !
+#5394 System is waiting for BP-measurement result.
+#5395 Do you want to leave this test?
+#5396 Annullation
+#5397 Annullation of test ?
+#5398 Do you really want to
+#5399 Leave test ?
+#5400 View Exercise
+#5401 Max. HR
+#5402 Max. BP
+#5403 Max. BP x HR
+#5404 Max Mets
+#5405 Max. Load
+#5406 PWC150 / 170
+#5407 PWCrel
+#5408 Work time
+#5409 Total time
+#5410 Recovery time
+#5411 Mets
+#5412 Mts
+#5413 Min. BP x HR
+#5414 Rest time
+#5415 Add BP
+#5416 Edit BP
+#5417 Max Mets/Load
+#5418 Mets/W
+#5419 [Mets]/[W]
+#5420 ST-Ampl
+#5421 ST-Slope
+#5425 DP-Factor
+#5426 PFP - Resting
+#5427 PFP - Recovery
+#5440 STampl
+#5441 STslope
+#5442 HR
+#5443 Load
+#5444 BP
+#5445 HR [/min]
+#5446 BP [mmHg]
+#5460 Name:
+#5461 ID:
+#5462 HR:
+#5463 BP:
+#5464 METs:
+#5465 Exercise time:
+#5466 Stage:
+#5467 Load:
+#5468 Arrhythmic event
+#5469 Event time
+#5470 Do not show this dialog at the next event automatically
+#5471 % of Set
+#5472 Set
+#5500 ST-Ampl protocol
+#5501 ST-Amplitudes
+#5520 Break Reasons:
+#5521 Patient Data:
+#5522 Load achieved:
+#5523 Test Duration:
+#5524 Heart Rate:
+#5525 Blood Pressure:
+#5526 Double Product:
+#5527 Borg:
+#5528 Symptoms:
+#5529 Stage
+#5530 Exercise
+#5538 Event changed. Save ?
+#5580 Please insert weigth and height before starting test!
+#5598 Rhythm
+#5599 Definition of Rhythm-Event
+#5600 VES
+#5601 VES  Couplet
+#5602 VES  Triplet
+#5603 VES  Bigem
+#5604 VES  Trigem
+#5605 V-Tach
+#5606 SVES
+#5607 SVES Couplet
+#5608 SVES Triplet
+#5609 SVES Bigem
+#5610 SVES Trigem
+#5611 SV-Tach
+#5612 Atrial flutter
+#5613 Atrial fib
+#5614 LSB
+#5615 RSB
+#5630 Time:
+#5631 Load:
+#5632 HR:
+#5633 Description:
+#5634 Event category
+#5638 Event changed !  Save ?
+#5640 Rhythm-Events:
+#5650 Automatic event
+#5651 Event added by user
+#5659 Text range from 5660-5669 is reserved for User-events !
+#5660 RestEvnt
+#5700 Resting Rhythm
+#5701 Resting Rhythm
+#5702 Make RestRhythm
+#5703 Event
+#5704 Event in rhythm
+#5705 Start
+#5706 Stop
+#5707 Main
+#5708 Magnet On
+#5709 Magnet Off
+#5710 VIEW RESTING RHYTHM
+#5720 Magnet
+#5800 Right Heart Catheter
+#5801 R-Cath
+#5802 Start Measurement Right Heart Catheter
+#5803 Calibr.
+#5804 Amplitude
+#5805 Baseline
+#5806 For Calibration: OK
+#5807 Calibration
+#5808 pressure is already saved in this step !
+#5809 Overwrite ?
+#5810 Sys
+#5811 Med
+#5812 Dia
+#5813 RA
+#5814 RV
+#5815 PA
+#5816 PC
+#5820 Time
+#5821 Load
+#5822 HR
+#5823 BP
+#5824 RA
+#5825 RV
+#5826 PA
+#5827 PA
+#5828 PCP
+#5829 HMV
+#5830 CI
+#5831 PVR
+#5832 PAR
+#5833 SVR
+#5840 mm:ss
+#5841 [W]
+#5842 [/min]
+#5843 [mmHg]
+#5844 [l/min]
+#5845 [l/min*m²]
+#5846 [dyn*sec*(cm*10e-5)]
+#5860 Calculate HMV & CI
+#5861 First Method
+#5862 Load:
+#5863 arterial oxygen content:
+#5864 venous oxygen content:
+#5865 HMV:
+#5866 CI:
+#5867 Calculate HMV
+#5868 Second Method
+#5869 Haemoglobin level:
+#5880 Values for Patient-weight AND -height neccessary !
+#5920 Supine
+#5921 Sitting
+#5922 Standing
+#5927 Ref
+#5928 Pre
+#5929 Load
+#5930 User
+#5939 Recovery
+#5959 STMax
+#5960 Pause
+#5978 End of test
+#6000 VIEW  RESTING  ECG
+#6001 Rhythms
+#6003 Vectors
+#6004 Average
+#6005 Rhythm
+#6006 Normal
+#6007 QT-Disp
+#6008 Style
+#6009 Measurement
+#6010 HR
+#6011 Intervals
+#6012 Axis
+#6013 Leads
+#6014 RR
+#6015 P
+#6016 PR
+#6017 QRS
+#6018 QT
+#6019 QTc
+#6020 P
+#6021 QRS
+#6022 T
+#6023 Pacemaker
+#6024 PM-rate
+#6025 Interval
+#6026 Duration
+#6040 Interpretation
+#6041 Validated by
+#6042 Keep dialog open
+#6050 Global measurement points are edited
+#6051 Global measurement points are edited from:
+#6052 at
+#6053 Autom. Interp. references to autom. determined measurement
+#6054 Measurement points are edited
+#6055 Measurement points are edited from:
+#6056 Editing of Measurement points not possible!
+#6057 Either the record is read only or you don't have sufficient rights.
+#6060 Measurement
+#6080 Average Complexes
+#6081 QT-Dispersion
+#6082 Ampl
+#6083 [mm/mV]
+#6084 All
+#6085 Ergo averages
+#6100 QT-Dispersion
+#6101 Lead
+#6102 QT
+#6103 d QT
+#6104 n (leads)
+#6105 Mean QT
+#6106 SD
+#6107 Min QT
+#6108 Max QT
+#6109 Max d QT
+#6110 Max diff
+#6111 QT [ms]
+#6112 QT-MeanQT [ms]
+#6113 autom. Calc
+#6114 Edited by User
+#6115 Yes
+#6116 No
+#6200 Late potential
+#6201 Beats
+#6202 Accepted
+#6203 Rejected
+#6204 QRS-Duration
+#6205 Normal
+#6206 HF-Duration
+#6207 Filter
+#6208 Results
+#6209 RMS (40ms)
+#6210 LAS
+#6211 Noise
+#6212 HR
+#6213 Common
+#6214 XYZ
+#6215 Version
+#6216 25 Hz
+#6217 40 Hz
+#6218 Zoom
+#6219 Vector magnitude
+#6220 Frank
+#6221 Bipolar
+#6222 Calculated
+#6225 On
+#6226 Off
+#6227 Results by System
+#6228 Results by User
+#6229 Save user changes ?
+#6230 User changed QRS-begin
+#6231 QRS-begin calc. by system
+#6232 User changed end of vector-magnitude
+#6233 End of vector-magnitude calc. by system
+#6234 Zoom in
+#6235 Zoom out
+#6236 Calc. new
+#6237 Save
+#6238 0.05-500 Hz
+#6239 25-250 Hz
+#6240 40-250 Hz
+#6241 Template for correlation in
+#6250 Start
+#6251 Stop
+#6300 Serial Comparison
+#6301 Ser. Rhythm
+#6302 Averages
+#6400 Start Holter ECG
+#6401 Start a new Holter recording
+#6402 Read Holter ECG
+#6403 Read a Holter recording from MT-100
+#6404 Start BP
+#6405 Start a new BP recording with BR-102 Plus
+#6406 Request BP
+#6407 Read a BP recording from BR-102 Plus
+#6420 Request Holter
+#6421 Holter Device selection
+#6422 Request MT-200/190
+#6425 MT-100 connect via optical cable
+#6426 MT-100 connect via USB Converter
+#6427 MT-101 USB connection
+#6428 SD-Card Reader
+#6430 Assign Patient data
+#6431 Patient data
+#6432 OK
+#6433 * Patient ID
+#6434 Play wave
+#6435 Search DB
+#6436 * Required Field
+#6437 Date not valid
+#6438 New Patient
+#6439 Select
+#6440 Cancel
+#6441 Search / Create Patient
+#6442 Do not show dialog next time
+#6443 Show Holter device selection when requesting Holter record
+#6444 Holter settings
+#6445 Add Patient to Database?
+#6446 Use Holter application:
+#6450 Start new Holter recording
+#6451 Start
+#6452 Show Holter device selection when starting Holter record
+#6460 Request MT-300 (read recording)
+#6461 BR-102 plus device selection
+#6462 Request MT-300
+#6465 BR-102 plus USB connection
+#6466 SD Card reader
+#6473 Show BR-102 Plus device selection when requesting BP record
+#6474 BR-102 Plus settings
+#6476 Use BR-102 Plus application:
+#6480 BP-Holter
+#6500 Measurement
+#6501 View
+#6502 Lead
+#7000 VIEW EXERCISE  ECG
+#7001 VIEW EXERCISE Averages
+#7003 VIEW EXERCISE Trend ST-Curves
+#7004 VIEW EXERCISE Rhythms
+#7010 Base Load
+#7011 Load Step
+#7012 Step Interval
+#7013 End of Work
+#7014 End of Test
+#7015 Max HR
+#7016 PWC Max
+#7017 PWC 150/170
+#7018 PWC Rel
+#7019 Max BP
+#7020 Max HR x BP's
+#7500 Electronic Audit Trail
+#7501 Enable Audit Trail
+#7502 Actions on Patient Data
+#7503 On new patient
+#7504 On edit patient
+#7505 On delete patient
+#7506 Actions on Examination Data
+#7507 On new examination
+#7508 On edit examination data
+#7509 On delete examination
+#7510 On move examination to other patient
+#7511 On view examination
+#7512 On print examination
+#7513 On generate PDF document for examination
+#7514 On export examination
+#7515 On manually export examination
+#7516 On email examination
+#7520 Search Patient-ID:
+#7521 Search User-ID:
+#7522 Search User-Name:
+#7523 Search
+#7524 &Close
+#7525 P&review
+#7526 &Print
+#7530 Host
+#7531 User
+#7532 Action
+#7533 Patient ID
+#7534 Rec. Date
+#7535 Rec. Time
+#7536 Destination
+#7537 Date
+#7538 Time
+#7539 Rec. Date/Time
+#7540 Action Date/Time
+#7541 SEMA-200 Audit Trail Report
+#7542 Preview Electronic Audit Trail Report
+#7543 Not available without running Advantage Database Server!
+#7544 Please contact your sales representative for more information.
+#7600 Database
+#7601 Hide Patient List
+#7603 Authentication
+#7604 Use Windows Authentication
+#7605 Single Sign On
+#7606 Use LDAP Authentication
+#7607 Use SEMA Authentication
+#7610 Always stay connected to the Database
+#7611 Validated Recordings cannot be changed
+#7612 Clear last Casenumber
+#7613 User has no direct login access!
+#7614 Check Remote DB when Offline-Exams are being synchronized
+#7620 Change Password
+#7621 Enter your new Password:
+#7622 Repeat your new Password:
+#7623 Change your Password
+#7624 Change password next time
+#7625 Show "Change Password" Checkbox
+#7700 PDQ Request
+#7701 PDQ
+#7702 PDQ Server URL
+#7703 SCS Connectivity
+#7704 Enable PDQ - Request
+#7705 Enable Worklist
+#7706 Enable Create New Workitem
+#7707 Allow Create Workitem
+#7710 Could not connect to:
+#7711 No Patient found for Pat-ID:
+#7712 No Patient found for Case Number:
+#7713 PDQ Request could not be performed!
+#7714 Upload exported files...
+#7715 Upload exported Files to Server
+#7716 Server - URL
+#7717 Existing Patient-ID does not match results.
+#7800 Connection Timeout. Cannot connect to LDAP Server!
+#7999 Make a spirometry recording
+#8000 View Spirometry
+#8001 Show FVC curves
+#8002 Show SVC curves
+#8003 Show MVV curves
+#8004 Show Trend
+#8005 Make calibration
+#8006 Smoothed background
+#8007 The last record has no POST - measurements
+#8008 Make POST - measurements now ?
+#8009 Show MV curves
+#8010 PFT
+#8011 Patient
+#8012 FVC
+#8013 SVC
+#8014 MVV
+#8015 MV
+#8016 Trend
+#8017 Calib.
+#8018 Show Results
+#8019 Show curves
+#8020 Results
+#8021 Diagnostic
+#8022 Resolution Y-Axis
+#8023 Resolution X-Axis
+#8024 Test
+#8025 3 l
+#8026 6 l
+#8027 12 l
+#8028 10s
+#8029 20s
+#8030 40s
+#8031 1
+#8032 2
+#8033 3
+#8034 All
+#8035 Best
+#8036 Reference
+#8037 V(t)
+#8038 PRE
+#8039 POST
+#8040 PR/PO
+#8041 Mark
+#8042 Meas 1
+#8043 Delete
+#8044 all measurements
+#8048 FMFT
+#8049 [ s ]
+#8050 FVC
+#8051 FEV 0.5
+#8052 FEV 1.0
+#8053 FEV 3.0
+#8054 FEV 0.5/SVC
+#8055 FEV 1.0/SVC
+#8056 FEV 3.0/SVC
+#8057 FEF 0.2-1.2
+#8058 FEF 25-75%
+#8059 FEF 75-85%
+#8060 PEF
+#8061 MEF 75%
+#8062 MEF 50%
+#8063 MEF 25%
+#8064 FIVC
+#8065 FIV 1
+#8066 FIV 1/FIVC
+#8067 FIV 1/FVC
+#8068 PIF
+#8069 MIF 50 %
+#8070 SVC
+#8071 ERV
+#8072 IRV
+#8073 TV
+#8074 MVV
+#8075 RR
+#8076 TV
+#8077 MV
+#8078 RR
+#8079 TV
+#8080 [ l ]
+#8081 [ l ]
+#8082 [ l ]
+#8083 [ l ]
+#8084 [ % ]
+#8085 [ % ]
+#8086 [ % ]
+#8087 [ l/s ]
+#8088 [ l/s ]
+#8089 [ l/s ]
+#8090 [ l/s ]
+#8091 [ l/s ]
+#8092 [ l/s ]
+#8093 [ l/s ]
+#8094 [ l ]
+#8095 [ l ]
+#8096 [ % ]
+#8097 [ % ]
+#8098 [ l/s ]
+#8099 [ l/s ]
+#8100 [ l ]
+#8101 [ l ]
+#8102 [ l ]
+#8103 [ l ]
+#8104 [ l ]
+#8105 [ 1/min ]
+#8106 [ l ]
+#8107 [ l ]
+#8108 [ 1/min ]
+#8109 [ l ]
+#8110 Pred
+#8111 Meas1
+#8112 Meas2
+#8113 Meas3
+#8114 %Pred
+#8115 Meas1
+#8116 Meas2
+#8117 Meas3
+#8118 %Pred
+#8119 %Chan
+#8120 Best
+#8121 Best
+#8122 V(t)
+#8123 Loop
+#8124 All
+#8126 Ref.
+#8127 [ l/min ]
+#8130 Knudson / ITS
+#8131 Knudson76 / ITS
+#8132 Crapo / ITS
+#8133 Morris / ITS
+#8134 Polgar / ITS
+#8135 Composite
+#8136 ECCS / Quanjer
+#8137 Berglund / Quanjer
+#8138 Finnish / Quanjer
+#8139 Indian
+#8140 Austria
+#8141 SP-110
+#8142 SP-150
+#8143 International
+#8144 American
+#8145 American / ITS
+#8148 SP-250 / SP-260
+#8149 Low initial flow
+#8150 Normal Condition
+#8151 Restrictive
+#8152 Obstructive
+#8153 Combined
+#8154 Normal Limits
+#8155 Mild Restriction
+#8156 Moderate Restriction
+#8157 Borderline Obstruction
+#8158 Mild Obstruction
+#8159 Moderate Obstruction
+#8160 Severe Restriction
+#8161 Severe Obstruction
+#8162 Low vital capacity and cannot rule out superimposed Restriction
+#8165 Airway Obstruction suggested
+#8166 Airway Obstruction may be underestimated
+#8167 Mild Airway Obstruction
+#8168 Moderate Airway Obstruction
+#8169 Severe Airway Obstruction
+#8170 Upper Airway Obstruction suggested
+#8171 Air trapping may be present
+#8172 Mild Chest Restriction
+#8173 Moderate Chest Restriction
+#8174 Severe Chest Restriction
+#8175 Results appear normal
+#8176 Poor initial effort suggested
+#8177 Markedly improved
+#8178 Improved
+#8179 Not clearly improved
+#8180 Not improved
+#8190 ATS criteria met
+#8191 ATS criteria not met !
+#8192 Before each measurement:
+#8193 hold sensor still
+#8194 *** START ***
+#8195 Hold Sensor Still
+#8200 Resolution
+#8201 Test
+#8202 3 l
+#8203 6 l
+#8204 12 l
+#8205 1
+#8206 2
+#8207 3
+#8208 1..3
+#8209 Best
+#8210 Reference
+#8211 V (t)
+#8212 l
+#8213 s
+#8214 l/s
+#8220 Last Calibration:
+#8221 BTPS Factor:
+#8222 Calib. Factor:
+#8223 Temperature:
+#8224 Measured Vol.:
+#8225 Reference Vol.:
+#8226 Sensor:
+#8227 Calibration Report
+#8228 Sensor calibrated on:
+#8230 Use extrapolated values ?
+#8231 Sensor not connected
+#8232 Calibration
+#8233 Make measurement
+#8234 Maximal 10 curves available. Please uncheck another curve !
+#8235 Graph as lines
+#8236 Graph as bars
+#8237 Pointers
+#8238 Background
+#8239 View 3D
+#8240 FVC Format
+#8241 Flow = f(V)
+#8242 Volume = f(t)
+#8243 Autom. Axis
+#8244 Copies :
+#8245 Spiro - Trend
+#8250 Pre-Curve1
+#8251 Pre-Curve2
+#8252 Pre-Curve3
+#8253 Post-Curve1
+#8254 Post-Curve2
+#8255 Post-Curve3
+#8260 Quad.
+#8270 Calibration OK
+#8271 Calibration not OK
+#8272 Please change the sieve !
+#8280 Interpretation quadrant
+#8290 Hedenstroem / Solymar
+#8291 Enter tobacco smoking data
+#8292 Please enter patient's tobacco smoking information below
+#8293 Years of tobacco smoking:
+#8294 Grams of tobacco per day:
+#8295 Show Smoking Variables Dialog
+#8300 Change to Post Modus ?
+#8350 Dialog Change Measurement Sequence
+#8351 Measurement Selection
+#8352 PRE/POST Selection
+#8353 Change sequence
+#8354 Select measurement
+#8355 Select PRE/POST test
+#8356 Change sequence of the measurements
+#8357 Original measurement
+#8358 &Up
+#8359 &Down
+#8360 &Change measurement sequence...
+#8400 Start LF8 PFT
+#8401 Spirometry with LF8
+#8500 Signal Average ECG
+#8501 Start Signal Average ECG
+#8502 Signal Average ECG
+#8503 Start Signal Average ECG
+#8504 SAECG
+#8510 Maximal Number
+#8511 Correlation (%)
+#8512 Accepted
+#8513 25 - 1000
+#8514 Rejected
+#8515 Beats
+#8516 Max. Number Beats
+#9000 Ergo Spirometry
+#9001 Ergo Spirometry
+#9002 Start Ergo Spirometry
+#9003 Patient-Weight and / or Patient-Height not defined !
+#9004 Start LF8
+#9005 Send Patientdata to LF8
+#9006 LF8 Export started! Please wait...
+#9021 VO2
+#9022 VCO2
+#9023 VE
+#9024 AF
+#9025 PETO2
+#9026 PETCO2
+#9027 RER
+#9028 O2 Pulse
+#9029 EQO2
+#9030 EQCO2
+#9031 VT
+#9032 VO2/kg
+#9033 VCO2/kg
+#9041 VO2 in [l/min]
+#9042 VCO2 in [l/min]
+#9043 VE in [l/min]
+#9044 AF in [l/min]
+#9045 PETO2 in [mmHg]
+#9046 PETCO2 in [mmHg]
+#9047 RER
+#9048 O2 Pulse in [ml/beat]
+#9049 EQO2
+#9050 EQCO2
+#9051 VT in [l]
+#9052 VO2/kg in ml/kg
+#9053 VCO2/kg in ml/kg
+#9100 Please breathe steady !
+#9200 Print Ergospirometry-Datas from LF8
+#9500 ETT_PAT
+#9501 Start Itamar PAT Study
+#9502 Birthdate is neccessary!
+#9503 Itamar ETT_PAT2000
+#9510 Program directory (incl. exe)
+#9511 Working directory
+#9520 ETT_PAT2000 analyizing...
+#9521 Please wait 1 minute before starting the test.
+#9522 Please wait at least 1 minute before ending the test.
+#9600 Start LF8
+#9601 Send Patientdata to LF8
+#9700 Start LF8 Spirometry now?
+#9701 LF8 cannot be opened!
+#10000 SCHILLER DIAGNOSTIC SYSTEM
+#10010 Patient
+#10011 Select Patient / Recording
+#10012 Search Recordings
+#10013 Login
+#10014 Exit
+#10015 New Patient
+#10016 Edit Patient
+#10017 Delete Patient
+#10018 Edit Recording
+#10019 Delete Recording
+#10020 Main Menu
+#10021 Return
+#10022 Shut Down
+#10023 Assign record
+#10024 Assign record to
+#10025 Send mail (RST file)
+#10026 Send mail (PDF report)
+#10027 Send Patient Data
+#10028 Start Emergency ECG
+#10029 E-ECG
+#10030 Examinations
+#10031 Resting ECG
+#10032 Exercise ECG
+#10033 Spirometry
+#10034 Resting Rhythm
+#10035 Late potentials
+#10036 Right Heart Catheter
+#10037 Exercise Spirometry
+#10038 Holter ECG
+#10039 Holter BP
+#10040 Sort on Name
+#10041 Sort on ID
+#10045 Recompress rhythm
+#10050 Function
+#10051 Import
+#10052 Export
+#10053 Archive
+#10054 Restore Database
+#10055 Schiller Format
+#10056 from Transfer Directories
+#10057 Patient Data from Interfaces
+#10058 Data to Db-Tables
+#10059 Export
+#10060 Setup Validation Export
+#10061 Setup
+#10062 View Recording
+#10063 Print
+#10064 Print...
+#10065 Send
+#10066 Transfer
+#10067 Auto ECG 1
+#10068 Auto ECG 2
+#10069 Copy
+#10070 Start Manual Recording
+#10071 Stop Recording
+#10072 PM-Measurement
+#10073 QRS Beep
+#10074 Electrode Test
+#10075 Start Exercise
+#10076 Begin
+#10077 ST-Ref
+#10078 Recover
+#10079 Next
+#10080 Hold
+#10081 End
+#10082 Full Rec
+#10083 Copy 2
+#10084 Today
+#10085 Criteria
+#10086 Supine
+#10087 Sitting
+#10088 Standing
+#10089 Skip
+#10090 Reorganisation of Databases
+#10091 Database
+#10092 Auto ECG
+#10093 Archive
+#10094 Archive Maint
+#10095 Pictures
+#10096 ECG-Holter Data
+#10097 Print settings
+#10098 BR-102 plus Data
+#10100 Settings
+#10101 Change Password
+#10102 Data Tables
+#10103 Settings
+#10104 Directories
+#10105 Texts
+#10106 Logs
+#10107 Acronyms
+#10108 Drug Classes and Drugs ...
+#10109 Users, Departments, Institutes ...
+#10110 Individual Tables ...
+#10111 System Configuration ...
+#10112 Upgrade
+#10113 User Configuration ...
+#10114 System Options
+#10115 Internal Printing Header
+#10116 Rest
+#10117 Exercise
+#10118 Printout settings...
+#10119 Resting-ECG Defaults
+#10120 Exercise Printout Defaults
+#10121 System Texts
+#10122 Break Reasons
+#10123 System Information
+#10124 Spiro
+#10125 Events
+#10126 Transfer, Export ...
+#10127 Filters ...
+#10128 PDF settings...
+#10129 Generate PDF Report
+#10130 Print settings
+#10131 Resting ECG
+#10132 Exercise ECG
+#10133 Spirometry ...
+#10134 Latepotential Analysis ...
+#10135 Resting Rhythm
+#10136 Pictures ...
+#10137 Rightheart-Catheter Measurement ...
+#10138 Generate PDF Report...
+#10140 Screens ,Formats ...
+#10141 Internal Printout ...
+#10142 Expected load calculation...
+#10150 Help
+#10151 Help for Active Screen
+#10152 Introduction
+#10153 About
+#10154 Manual
+#10160 Patient
+#10161 New Patient
+#10162 Select Patient / Recording
+#10163 Main Menu
+#10164 Function
+#10165 FVC
+#10166 SVC
+#10167 MVV
+#10168 View
+#10169 V(t)
+#10170 Trend
+#10171 Settings
+#10172 Report Type
+#10173 Meas1
+#10174 Best
+#10175 autom. Interpretation
+#10176 Sensor
+#10177 Reference Values by
+#10178 Loop
+#10179 Spiro-Standard
+#10180 International
+#10181 American
+#10182 American / ITS
+#10183 Delete Meas.
+#10184 Meas 1
+#10185 Meas 2
+#10186 Meas 3
+#10187 ALL
+#10188 SP-110
+#10189 SP-150
+#10190 SP-20
+#10191 MV
+#10192 Start / Stop
+#10193 Start
+#10194 Stop
+#10195 f(V)
+#10197 Quadrant
+#10198 Results
+#10200 View
+#10201 Screen 1
+#10202 Screen 2
+#10203 Screens
+#10204 Next Leads
+#10205 Previous Leads
+#10206 Filter
+#10207 Recenter Signal
+#10208 Recordings
+#10210 Serial Comparison
+#10211 Next Record
+#10213 Filter
+#10214 Save screen settings
+#10215 Lead for enlarged QRS
+#10216 Interpretation
+#10217 Average Complexes
+#10218 Rhythm
+#10219 Measurement
+#10220 Ergo Main
+#10221 ST- Prot
+#10222 ST- Trend
+#10223 PM- Detection
+#10224 Recordings
+#10225 Next QRS-Complex Lead
+#10226 Previous QRS-Complex Lead
+#10227 J-Point Plus
+#10228 J-Point Minus
+#10229 Fulldisclosure
+#10250 Settings
+#10251 Auto Start
+#10252 Manual Start
+#10253 Screens
+#10254 Filter
+#10255 Lead Order
+#10256 Electrodes
+#10257 Card Info
+#10258 Order of events
+#10259 Bicycle
+#10260 Treadmill
+#10261 Heartrate Alarm
+#10262 Treadmill Pause
+#10263 Recovery Printing
+#10264 CAD Probability
+#10265 Interval Print Format
+#10266 Final Report Print Format
+#10267 Input Blood Pressure
+#10268 Input Symptoms
+#10269 Protocol Bottoms
+#10270 Set Recorder Defaults
+#10271 StepPrint
+#10272 Direct End-Report on external Printer
+#10300 Edit
+#10301 Edit Recording Data
+#10302 Delete Recording
+#10303 Select Patient
+#10320 Protocol
+#10321 Select Bicycle
+#10322 Select Treadmill
+#10323 Edit Bicycle
+#10324 Edit Treadmill
+#10325 Display
+#10350 Calculate med. Pressure over:
+#10351 Baseline filter (1.20 Hz)
+#10400 Exit
+#10401 Select Patient / Recording
+#10402 Search Recording
+#10403 Make a Resting ECG
+#10404 Make an Exercise ECG
+#10405 Button of Present and Previous Activity
+#10406 Close
+#10407 View the selected Recording
+#10408 Add a New Patient
+#10409 Edit selected Patient Data
+#10410 Delete selected Patient
+#10411 Edit selected Examination
+#10412 Print with Default Format
+#10413 Print with selected Format
+#10414 Send...
+#10415 Copy..
+#10416 Delete selected Recording
+#10417 Start Manual Recorder
+#10418 Stop Recorder
+#10419 Switch Myogram Filter On/Off
+#10420 Recenter Signal
+#10421 View Layout 1
+#10422 View Layout 2
+#10423 View Average Complexes
+#10424 View Rhythms
+#10425 View Measurements
+#10426 View / Edit Interpretation
+#10427 Record ECG automatically (in Format 1)
+#10428 View Symptoms
+#10429 Back to Main Menu
+#10430 Return
+#10431 Select Patient
+#10432 Shut Down the System
+#10433 Leave the Application
+#10434 Back to Patient / Recordings Selection
+#10435 Back to Search Recordings
+#10436 View Exercise ECG Main
+#10437 View ST-Protocol
+#10438 View ST-Trends
+#10439 Get next Recording
+#10440 Type of Recording
+#10441 Recording Date
+#10442 Recording Time
+#10443 Validated
+#10444 Printed
+#10445 Sent
+#10446 Exported
+#10447 Archived (Number)
+#10448 Serial Comparison
+#10449 Zoom Fulldisclosure <-> Event-Definition
+#10450 Print all
+#10451 cardiov.
+#10452 Start cardiovise program
+#10453 Export not successful!
+#10454 Possibly, SCS not accessible.
+#10455 Possibly, export directory not accessible.
+#10456 Patients
+#10484 
+#10490 Patient-ID already exists! Please use another ID.
+#10500 &Abort
+#10501 Acronyms
+#10502 Apply
+#10503 Auto
+#10504 Averages
+#10505 Cancel
+#10506 Center
+#10507 Close
+#10508 Copy
+#10509 Change
+#10510 Data
+#10511 Default User
+#10512 Defaults
+#10513 Delete
+#10514 Edit
+#10515 Ex Main
+#10516 Exercise ECG
+#10517 Exit
+#10518 Filter
+#10519 Help
+#10520 Hold Stage
+#10521 Insert
+#10522 Interp
+#10523 Default
+#10524 Start
+#10525 Meas
+#10526 New Pat
+#10527 Next Step
+#10528 No
+#10529 No Name
+#10530 OK
+#10531 Patient
+#10532 Print
+#10533 Print Sel
+#10534 Resting ECG
+#10535 Recover
+#10536 Rhythm
+#10537 Save
+#10538 Screen1
+#10539 Screen2
+#10540 Search
+#10541 Pat ?
+#10542 Send
+#10543 Setup Printer
+#10544 Start
+#10545 ST-Trend
+#10546 Stop
+#10547 ST-Prot
+#10548 Today
+#10549 Transfer
+#10550 View
+#10551 Yes
+#10552 Symptoms
+#10553 Accept Lead Offset
+#10554 PatState
+#10555 Medi
+#10556 Leave the Application
+#10557 Shut Down the System
+#10558 View Recording
+#10559 New Class
+#10560 New Drug
+#10561 New Inst
+#10562 New Dept
+#10563 New User
+#10564 New Insu
+#10565 New Type
+#10566 New Rem
+#10567 New Type
+#10568 New Indi
+#10569 Delete
+#10570 Insert
+#10571 New
+#10572 Meas
+#10573 Device-Name
+#10574 NextRec
+#10575 S-Comp
+#10576 New
+#10577 Assign
+#10578 Browse
+#10579 autom. Measurement
+#10580 Screen3
+#10581 View Screen 3
+#10600 Confirm
+#10601 Leave the Application?
+#10602 Shut Down the System?
+#10603 Back to PDMS
+#10610 Calendar
+#10620 Printing
+#10621 Printing in Progress
+#10630 Select Format and Print
+#10631 Print Formats
+#10632 1 Page Portrait
+#10633 2 Pages Landscape with Rhythms (25mm/s)
+#10634 US-Format
+#10635 1 Page Landscape with Averages
+#10636 1 Page Landscape with Rhythms
+#10637 1 Page Header Landscape with Rhythms
+#10638 Print Interpretation
+#10639 2 Pages Landscape with Rhythms (50mm/s)
+#10640 Thermo Printer Control
+#10641 System
+#10642 Colors
+#10645 Please define at least one Include - File !
+#10650 Your Changes in Patient/Recording will be cancelled, because new Recordin
+#10651 Please close Patient/Recording dialog, so that analysis can be finished !
+#10660 Select PDF Format and Generate
+#10670 Leave Application
+#10700 Manual Printing stopped
+#10701 Auto Printing stopped
+#10702 Manual Printing
+#10703 Auto Printing
+#10704 Paper Feed
+#10705 End of Paper
+#10706 Paper Stuck
+#10707 Filtering
+#10708 Measurement
+#10709 Interpretation
+#10710 Compression
+#10711 Ready
+#10712 Clear Message
+#10713 Recording Seconds
+#10714 Packing / Reorganisation of Database
+#10715 Table:
+#10716 Do you really want to reorganize databases ?
+#10717 This may take several minutes and none can use the databases !
+#10718 Meas Error
+#10730 Y
+#10731 Months
+#10732 Weeks
+#10733 Days
+#10800 Checklist
+#10801 Show Checklist
+#10802 Institutes
+#10803 Departments
+#10804 Users
+#10805 System Config.
+#10806 Printout Config.
+#10850 Checklist
+#10851 Show Checklist at restart
+#10852 Defines available institutes
+#10853 Defines available departments
+#10854 Defines available users and their rights
+#10855 Defines the system configurations
+#10856 Defines print settings for an external printer
+#10900 2400
+#10901 4800
+#10902 9600
+#10903 19200
+#10904 38400
+#10905 57600
+#10906 115200
+#10910 Time between blocks
+#10911 Time between records
+#11000 Import Holter examinations...
+#11001 Import BR-102 plus examinations...
+#11002 This process can take several minutes!
+#11100 No access to this examination!
+#11999 Error
+#12000 Volume is not mounted!
+#12001 UserID or Password invalid!
+#12002 This User-ID was changed outside of SDS and is invalid!
+#12003 User-ID invalid!
+#12004 User-ID is missing!
+#12005 Pat-DB is positioned at a bad position. Pat-ID is blank!
+#12006 You have not enough rights for this task!
+#12007 This Recording is in update by another User!
+#12008 DOS Error. File is not copied!
+#12009 Patient has Recordings. Please delete them first!
+#12010 No Recording available for this patient.
+#12011 This Patient-ID is already used!
+#12012 Patient-ID can not be empty!
+#12013 No directory
+#12014 Database:
+#12015 Date:
+#12016 Time:
+#12017 Database RecArch is positioned at a bad position. RecArch-ID is blank!
+#12018 ID can not be empty!
+#12019 There are Drugs in the Drugclass. Delete them fist!
+#12020 There are Departments in this Institue. Delete them first!
+#12021 There are Users in this Department. Delete them first!
+#12022 Unable to open
+#12023 Unable to create
+#12024 Error reading
+#12025 Error writing
+#12026 Could not delete Recording.
+#12027 This name already exists. Please use a new name to insert.
+#12028 This Drug already exists. Please use a new Drug Code.
+#12029 This User-ID already exists. Please use a new User-ID.
+#12030 'Date from' is not in valide range.
+#12031 Invalid number in 'Date from'.
+#12032 'Date from' is missing.
+#12033 'Date from' is invalid.
+#12034 'Date from' not valid.
+#12035 This Department already exists. Please use a new Department Code.
+#12036 This Institute already exists. Please use a new Institute Code.
+#12037 This Drug Class already exists. Please use a new Drug Class Code.
+#12038 Can not open file
+#12039 Source and destination can not be the same.
+#12040 Windows could not be Shut Down.
+#12041 Text not found
+#12042 Error Code
+#12043 Database
+#12044 File
+#12045 Error
+#12046 You can try to delete the file :
+#12047 and then start your system again. (This could be a problem because you le
+#12048 If the problem consists or happens frequently, please contact your servic
+#12049 Please delete some Recordings.
+#12050 You have a SDS-Version for 200 Recordings only !
+#12051 Could not find requested archived Recording on your System !
+#12052 Could not find requested Recording on your System !
+#12053 Disc is full!
+#12054 Path is not in the searchlist
+#12055 Path
+#12056 or
+#12057 with File
+#12058 Would you like to delete this entry from list ?
+#12059 Would you like to continue ?
+#12060 Not enough free space on Archiving path:
+#12061 Free Space
+#12062 Bad input data
+#12063 PatientID can not be empty
+#12064 Not correct format for PatientID
+#12066 Lastname can not be empty
+#12067 Invalid date
+#12068 Date not within range
+#12069 No patient selected
+#12070 No directory with that name!
+#12071 Firstname can not be empty
+#12072 Swedish-PID is not correct!
+#12073 Retry?
+#12074 Entered PID is invalid! Please use another ID.
+#12075 Entered PID is invalid! Continue?
+#12080 Editing not allowed because of limited rights!
+#12081 Editing not possible because examination is archived!
+#12082 Editing not possible because examination is read-only!
+#12083 Editing not possible because examination type does not allow this!
+#12084 Recording is Read-Only! Assign not possible!
+#12085 Too many characters (>40) for recording directory!
+#12086 Too many characters (>40) for archive directory!
+#12087 No connection to
+#12088 possible at the moment!
+#12099 SDS-104 / AT-104 PC  Information & Errors
+#12100 No connection to AT-104 PC or SP-250
+#12101 Batt low AT-104 PC
+#12102 Battery low AT-104 PC! Connect to mains!
+#12103 Specified port is already open ! Please select another port number.
+#12104 Specified port does not exist ! Please select another port number.
+#12105 Specified port is already in use ! Please select another port number.
+#12106 Could not open port ! Please check your serial port card !
+#12107 Please check connection.
+#12110 Abort measurement ?
+#12111 If yes, an undefined patient could be created !
+#12112 AT104 will be restartet ! For more security please restart the SDS104
+#12113 Communication error! Resynchronizing to AT-104...
+#12120 Receive Error
+#12121 Command Error
+#12122 Parameter Error
+#12123 Key Error
+#12124 Marker Error
+#12125 Error EKG-Measurement
+#12126 Error Compression
+#12127 No QRS detected
+#12128 Correlation not possible
+#12129 EKG not usable
+#12130 EKG not usable. Time limit - process killed!
+#12131 AT-104 bootup sucessful!
+#12132 Unknown Error
+#12133 Fatal error in Sys-SW! Restart Ergomodus
+#12140 Import DLL cannot be loaded
+#12141 GDTprt.DLL cannot be loaded
+#12142 Could not send to defined receiver!
+#12143 SEMA1prt.DLL cannot be loaded
+#12144 SEMA2prt.DLL cannot be loaded
+#12145 Error in GDT conversion!
+#12199 Information
+#12200 Do you really want to delete this patient?
+#12201 Patient not found. Enter new Patient Data?
+#12202 Pat-ID already exists. Add Recordings to another Patient?
+#12203 Save changes?
+#12204 Patient-ID not found. Enter new Patient Data ?
+#12205 Do you really want to delete this Recording?
+#12206 Overwrite old Recordings ?
+#12207 Save changes in user settings ?
+#12208 Interpretation was changed/checked. Save changes and Validate ?
+#12209 Do you really want to delete those data ?
+#12210 Shall following directory be created now ?
+#12211 Volume Label
+#12212 successfull set to drive
+#12213 Could not set VolumeLabel
+#12214 to drive
+#12215 Please enter a VolumeLabel (max: 11 Char)
+#12216 The Proposal is SD+Year+Day+Time
+#12217 Drive
+#12218 No VolumeLabel !
+#12219 Would you like to give a VolumeLabel now ?
+#12220 Confirm
+#12221 Would you like to save your changes in Archive-Configuration ?
+#12222 Settings from 1.Page/BASE do not become active,
+#12223 because "Use List" is selected checked. Values from LIST will be used.
+#12224 Addressbook is empty
+#12225 User is a visitor
+#12226 Delete file also?
+#12227 Measurement was changed. Save changes ?
+#12228 There must be at least one entry!
+#12229 No device selected
+#12230 No more space on disc!
+#12231 No recordings found!
+#12232 Recording too long! Please stop recording.
+#12233 Patient has no recordings!
+#12234 Patient has no recordings for this date and time!
+#12235 Patient has no recordings of this type!
+#12236 No patient with this number!
+#12237 Invalid parameter!
+#12238 Continue Import ?
+#12239 The max. allowed number of active recordings is almost reached.
+#12240 Please archive now !
+#12241 Less than 120 MB free disc-space !
+#12242 Please clean disc from unused data !
+#12243 Less than 80 MB free disc-space !
+#12244 It's not possible to save Rhythm-data during test !
+#12245 Delete entry?
+#12249 Unknown Error from ECG-Holter!
+#12251 ECG-Holter Program is not available !
+#12252 One of the parameters is incorrect!
+#12253 Internal Semaphore-File could'nt written!
+#12254 Unknown Error from ECG-Holter!
+#12260 VxD-Failure, driver not correct installed!
+#12261 Start of measurement was cancelled!
+#12270 Error in ECG-Holter! VxD Problem, Demo-Version or Reading cancelled!
+#12280 Error in ECG-Holter! File not found !
+#12281 Error in ECG-Holter! File not found !
+#12282 Error in ECG-Holter! Error during opening of file!
+#12283 PDF-Reader is not installed! Please install the PDF-Reader.
+#12290 Error in ECG-Holter! File not found
+#12291 Error in ECG-Holter! User didn't select a new file.
+#12292 Error in ECG-Holter! Error during opening of file!
+#12300 No connection to following Path :
+#12301 Switch to Emergency-Mode (Local) ?
+#12302 If No the application will be terminated !
+#12303 ATTENTION !
+#12304 APPLICATION RUNS IN EMERGENCY-MODE (LOCAL)
+#12305 The last recording was run in EMERGENCY-MODE (LOCAL)!
+#12306 Please import the recordings made in EMERGENCY-MODE
+#12307 Would you like to transfer possibly locally stored recordings automatically to the server?
+#12308 Transfer recordings made in EMERGENCY-MODE (LOCAL) to Server
+#12309 No recordings in local database!
+#12310 Transfer Recordings...	
+#12311 Please wait until recordings are transfered to the server!
+#12312 Transfer Export-Files...	
+#12313 Please wait until files are transfered to the SCS-server!
+#12314 Download Worklist from SCS-Server...	
+#12315 Please wait until Worklist is downloaded from the SCS-Server!
+#12316 Connection to server lost! Try to switch to local mode (EMERGENCY-MODE)...
+#12317 Please wait until files are transfered to the server!
+#12351 MT-300 is not available !
+#12352 One of the parameters is incorrect!
+#12353 Internal helpfile could'nt written!
+#12360 VxD-Failure, driver not correct installed!
+#12361 Start of measurment was cancelled!
+#12370 Error in MT-300 ! Operation cancelled by user!
+#12380 Error in MT-300 ! File not found !
+#12381 Error in MT-300 ! File not found !
+#12382 Error in MT-300 !  Error during opening of file!
+#12383 PDF-Reader is not installed! Please install the PDF-Reader.
+#12390 Error in MT-300 ! File not found
+#12391 Error in MT-300 ! User didn't select a new file.
+#12392 Error in MT-300 !  Error during opening of file!
+#12400 Recording is already opened by another user!
+#12401 Recording will be opened in Read-Only mode.
+#12449 Unknown Error from BP-Holter!
+#12451 BP-Holter Program is not available !
+#12452 One of the parameters is incorrect!
+#12453 Internal Semaphore-File could'nt written!
+#12454 Unknown Error from BP-Holter!
+#12460 VxD-Failure, driver not correct installed!
+#12461 Start of measurement was cancelled!
+#12470 Error in BP-Holter! VxD Problem, Demo-Version or Reading cancelled!
+#12480 Error in BP-Holter! File not found !
+#12481 Error in BP-Holter! File not found !
+#12482 Error in BP-Holter! Error during opening of file!
+#12483 PDF-Reader is not installed! Please install the PDF-Reader.
+#12490 Error in BP-Holter! File not found
+#12491 Error in BP-Holter! User didn't select a new file.
+#12492 Error in BP-Holter! Error during opening of file!
+#12500 Recording not found!
+#12501 Error opening the recording!
+#12502 Error generating the GDT file!
+#12503 Error generating the PDF file!
+#13001 Invalid function
+#13002 File not found
+#13003 Path not found
+#13004 Too many open files
+#13005 File access denied
+#13006 Invalid file handle
+#13007 Memory control blocks destroyed
+#13008 Insufficient memory
+#13009 Invalid memory block address
+#13010 Invalid environment
+#13011 Invalid format
+#13012 Invalid file access code
+#13013 Invalid data
+#13015 Invalid drive number
+#13016 Cannot remove current directory
+#13017 Cannot rename across drives
+#13018 No more files
+#13019 Disk is write-protected
+#13020 Unknown unit
+#13021 Drive not ready
+#13022 Unknown command
+#13023 CRC error
+#13024 Bad request structure length
+#13025 Seek error
+#13026 Unknown media type
+#13027 Sector not found
+#13028 Out of paper
+#13029 Write fault
+#13030 Read fault
+#13031 General failure
+#13032 Recording is already opened by another user!
+#13033 Lock violation
+#13034 Invalid disk change
+#13035 FCB unavailable
+#13036 Sharing buffer overflow
+#13037 Code page mismatch
+#13038 Error handling EoF
+#13039 Handle disk full
+#13050 Network request not supported
+#13051 Remote computer not listening
+#13052 Duplicate names on network
+#13053 Network name not found
+#13054 Network busy
+#13055 Network device no longer exists
+#13056 NetBIOS command limit exceeded
+#13057 Network adapter error
+#13058 Incorrect network response
+#13059 Unexpected network error
+#13060 Incompatible remote adapter
+#13061 Print queue full
+#13062 Not enough space for print file
+#13063 Print file deleted
+#13064 Network name deleted
+#13065 Access denied
+#13066 Network device type incorrect
+#13067 Network name not found
+#13068 Network name limit exceeded
+#13069 NetBIOS session limit exceeded
+#13070 Temporarily paused
+#13071 Network request not accepted
+#13072 Print or disk redirection is paused
+#13080 File already exists
+#13082 Cannot make directory entry
+#13083 Fail on interrupt 24
+#13084 Too many redirections
+#13085 Duplicate redirection
+#13086 Invalid password
+#13087 Invalid parameter
+#13088 Network data fault
+#13098 Please mount volume:
+#13099 File is not readable
+#14001 Async Professional Error
+#14002 Error loading Winsock DLL
+#14003 Incorrect version of Winsock
+#14004 Winsock not initialized - %s
+#14005 Specified port is not valid
+#14006 Cannot change parameter while socket is connected
+#14007 Cannot resolve destination address
+#15004 Interrupted function call
+#15009 Bad file number
+#15013 Permission denied
+#15014 Unknown error
+#15022 Invalid argument
+#15024 Too many open files
+#15035 Warning: the socket would block on this call
+#15036 A blocking call is in progress
+#15037 WSAEALREADY: watch out, Al is ready
+#15038 Socket descriptor is (1) not a socket, or (2) is of wrong type
+#15039 The destination address is required for this operation
+#15040 The datagram was too large to fit into the buffer and was truncated
+#15041 WSAEPROTOTYPE
+#15042 The option is unknown or not supported
+#15043 Either (1) no buffer space available so socket cannot be created or (2) p
+#15044 Specified socket type not supported in this address family
+#15045 Operation is not supported by this socket
+#15046 Specified protocol family is not supported
+#15047 Specified address family is not supported by this protocol
+#15048 The address is already in use for this operation
+#15049 The address is not available from this machine
+#15050 The network subsystem has failed
+#15051 The network is unreachable from this machine at this time
+#15052 The network has been reset
+#15053 The virtual circuit has been aborted due to timeout, etc
+#15054 The virtual circuit has been reset by the partner
+#15055 The descriptor is not a socket, or no buffer space is available
+#15056 The socket is already connected
+#15057 The socket is not connected
+#15058 The socket has been shutdown
+#15059 WSAETOOMANYREFS
+#15060 The operation timed out
+#15061 The attempt to connect was forcibly refused
+#15062 WSAELOOP: see WSAELOOP
+#15063 The name is too long
+#15064 The host machine is down
+#15065 The host machine is unreachable
+#15066 WSAENOTEMPTY
+#15067 WSAEPROCLIM
+#15068 WSAEUSERS
+#15069 WSAEDQUOT
+#15070 WSAESTALE
+#15071 WSAEREMOTE
+#15091 Network subsystem unusable
+#15092 Version requested by WSAStartUp not supported by loaded Winsock DLL
+#15093 WSAStartUp not yet called
+#15101 WSAEDISCON
+#16001 Host not found
+#16002 Host not found, or SERVERFAIL, can try again
+#16003 Non recoverable errors, FORMERR, REFUSED, NOTIMP
+#16004 Valid name, but no data record of requested type
+#17000 Automatic log-out
+#17001 Automatic log-out enabled
+#17002 Session time in minutes
+#17003 Warning!
+#17004 The current user will be logged off automatically in
+#17005 seconds!
+#17006 &Log-out now
+#17007 &Cancel
+#17008 Automatic log-out in
+#17009 minutes!
+#17010 Any unsaved changes will be lost.
+#17020 Application needs to be restarted!
+#17500 User belongs to no Group/Role!
+#17501 Group / Role does not exist in SEMA Database!
+#17502 Please register Group/Role first in SEMA Database!
+#17510 Choose Group/Role...
+#17511 Please select the Group/Role you want to use:
+#17512 &Ok
+#18000 Examination-Type unknown
+#18001 Examination already exists!
+#19000 Heart Rate
+#19001 Systolic Blood Pressure
+#19002 Diastolic Blood Pressure
+#19003 RR Interval
+#19004 P Duration
+#19005 PQ Duration
+#19006 QRS Duration
+#19007 QT Duration
+#19008 QTc Duration
+#19009 P Axis
+#19010 QRS Axis
+#19011 T Axis
+#19012 Pacemaker VV Interval
+#19013 Pacemaker AV Interval
+#19014 Pacemaker A Duration
+#19015 Pacemaker V Duration
+#19016 Pacemaker Rate
+#19020 Maximum Heart Rate
+#19021 Maximum Heart Rate in %
+#19022 Predicted Heart Rate
+#19023 Maximum Load
+#19024 Maximum Load in %
+#19025 Predicted Load
+#19026 Maximum Systolic BP
+#19027 Maximum Diastolic BP
+#19028 Maximum Double
+#19029 Minimum Double
+#19030 PWCRel1 / PWCRel2
+#19031 PWC 150
+#19032 PWC 170
+#19033 Duration of Recording (Total)
+#19034 Duration of Exercise (Total)
+#19035 Duration of Recovery (Total)
+#19036 Resting Heart Rate
+#19037 Resting Systolic Blood Pressure
+#19038 Resting Diastolic Blodd Pressure
+#19039 Breakreason 1
+#19040 Breakreason 2
+#19041 Breakreason 3
+#19042 Protocol
+#19043 Stress Type
+#19100 Name
+#19101 Unit
+#19102 Value
+#19103 HR
+#19104 Syst. BP
+#19105 Diast. BP
+#19106 RR-Intv.
+#19107 P-Dur.
+#19108 PQ-Dur.
+#19109 QRS-Dur.
+#19110 QT-Dur.
+#19111 QTc-Dur.
+#19112 P-Axis
+#19113 QRS-Axis
+#19114 T-Axis
+#19115 PM-VV Interv.
+#19116 PM-AV Interv.
+#19117 PM-A Dur.
+#19118 PM-V Dur.
+#19119 PM-Rate
+#19120 Max. HR
+#19121 Max. HR in %
+#19122 Pred. HR
+#19123 Max. Load
+#19124 Max. Load in %
+#19125 Pred. Load
+#19126 Max. Syst. BP
+#19127 Max. Diast. BP
+#19128 Max. Double
+#19129 Min. Double
+#19130 PWCRel1 / PWCRel2
+#19131 PWC 150
+#19132 PWC 170
+#19133 Dur. of Recording
+#19134 Dur. of Exercise
+#19135 Dur. of Recovery
+#19136 Rest. HR
+#19137 Rest. Syst. BP
+#19138 Rest. Diast. BP
+#19139 Breakreason 1
+#19140 Breakreason 2
+#19141 Breakreason 3
+#19200 Predicted FVC
+#19201 Predicted FEV 1.0
+#19202 Predicted FEV 1.0/FVC
+#19203 Predicted FEV 1.0/SVC
+#19204 Predicted PEF
+#19205 Predicted MEF 75%
+#19206 Predicted MEF 50%
+#19207 Predicted MEF 25%
+#19208 Predicted SVC
+#19220 PRE FVC
+#19221 PRE FEV 1.0
+#19222 PRE FEV 1.0/FVC
+#19223 PRE FEV 1.0/SVC
+#19224 PRE PEF
+#19225 PRE MEF 75%
+#19226 PRE MEF 50%
+#19227 PRE MEF 25%
+#19228 PRE SVC
+#19240 %Predicted PRE FVC
+#19241 %Predicted PRE FEV 1.0
+#19242 %Predicted PRE FEV 1.0/FVC
+#19243 %Predicted PRE FEV 1.0/SVC
+#19244 %Predicted PRE PEF
+#19245 %Predicted PRE MEF 75%
+#19246 %Predicted PRE MEF 50%
+#19247 %Predicted PRE MEF 25%
+#19248 %Predicted PRE SVC
+#19260 POST FVC
+#19261 POST FEV 1.0
+#19262 POST FEV 1.0/FVC
+#19263 POST FEV 1.0/SVC
+#19264 POST PEF
+#19265 POST MEF 75%
+#19266 POST MEF 50%
+#19267 POST MEF 25%
+#19268 POST SVC
+#19280 %Predicted POST FVC
+#19281 %Predicted POST FEV 1.0
+#19282 %Predicted POST FEV 1.0/FVC
+#19283 %Predicted POST FEV 1.0/SVC
+#19284 %Predicted POST PEF
+#19285 %Predicted POST MEF 75%
+#19286 %Predicted POST MEF 50%
+#19287 %Predicted POST MEF 25%
+#19288 %Predicted POST SVC
+#19300 %Change FVC
+#19301 %Change FEV 1.0
+#19302 %Change FEV 1.0/FVC
+#19303 %Change FEV 1.0/SVC
+#19304 %Change PEF
+#19305 %Change MEF 75%
+#19306 %Change MEF 50%
+#19307 %Change MEF 25%
+#19308 %Change SVC
+#19400 PRE
+#19401 POST
+#19402 Name
+#19403 Unit
+#19404 Pred
+#19405 Best
+#19406 Meas1
+#19407 %Pred
+#19408 %Chan
+#19410 FVC
+#19411 FEV 1.0
+#19412 FEV 1.0/FVC
+#19413 FEV 1.0/SVC
+#19414 PEF
+#19415 MEF 75%
+#19416 MEF 50%
+#19417 MEF 25%
+#19418 SVC
+#19430 [l]
+#19431 [l]
+#19432 [%]
+#19433 [%]
+#19434 [l/s]
+#19435 [l/s]
+#19436 [l/s]
+#19437 [l/s]
+#19438 [l]
+#30300 PATADDRESS1
+#30301 PATADDRESS2
+#30302 PATADDRESS3
+#30304 COPY TO LIST
+#30305 CLINIC COURIER RUN
+#30306 DR TITLE
+#30307 DR ADDRESS1
+#30308 DR ADDRESS2
+#30309 DR ADDRESS3
+#30313 DR ADDRESS4
+#30314 DR ADDRESS5
+#30310 103 Victoria Pde, Collingwood 3066
+#30312 PATNAME
+#30315 Copies To:
+#31999 End of File

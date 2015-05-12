@@ -1,0 +1,304 @@
+; 1 Page Rhythms / Landscape  
+; Defintion file for Rest-ECG
+; File				: RestRhytDHM.txt
+; Defined by		: Schiller AG Baar
+; Date				: 25.05.00
+; Version			: 1.62.00
+; Description, see file		: Printhelp.txt
+
+; x-coordinate is zero on the left side 
+; y-coordinate is zero at bottom of page
+SetPrintTYpe NotDef
+
+Zero -5 290					; Set Zero-Point of Page 
+SelectFont Name Arial
+SelectFont Style Normal
+SelectFont Size 10
+SelectFont Charset 0
+
+; Line 15 233 196 233 4 		; Line after the hospital/patient name
+
+; Title
+; =====
+; Hosptial-Name
+; -------------
+
+; AqrInst 17 266				; Hospital Name                  
+;Technic 110 266	          	; Recording Technician	
+
+SelectFont Name Arial
+SelectFont Style Normal
+SelectFont Size 10
+SelectFont Charset 0
+
+; COPY TO SECTION
+; ----------------
+
+
+;Text 304 40 247
+Text 30305 40 260				;Clinic Arial run
+Text 30306 40 256				;Dr Title
+Text 30307 40 252				;Dr Address 1
+Text 30308 40 248				;Dr Address 2
+Text 30309 40 244				;Dr Address 3
+Text 30313 40 240				;Dr Address 4
+;Text 314 40 231
+; bottom of sheet
+; ---------------
+
+; COPY TOS
+; -----------
+;
+
+SelectFont Name Arial
+SelectFont Style Normal
+SelectFont Size 8
+SelectFont Charset 0
+
+Text 30315 25 235				;Copies to:
+Text 30304 40 235				;Copy to list
+
+
+
+Lab Number;
+----------------
+SelectFont Style Normal
+SelectFont Size 10 
+
+Text 601 135 265				;id:
+Pat Num 145 265				;patient number
+; Text 509 135 260				;ur#
+; Text 510 145 260				;patur - removed pj 3/12/2008
+
+
+SelectFont Style Bold
+SelectFont Size 10
+
+Text 30312 145 255
+
+SelectFont Style Normal
+
+Text 30300 145 250
+Text 30301 145 246
+Text 30302 145 242
+
+Text 3 135 238
+Pat Born 145 238
+Text 5 165 238
+Pat Sex 175 238 
+
+
+
+Landscape 200 10
+Grid 0 60 223 155				; Grid for Averages
+Grid 0 5 223 58				; Grid for Rhythm lines 
+Rectangle 0 60 223 155 1		; Rectangle around Averages
+Rectangle 0 5 223 58 1			; Rectangle around Averages
+
+
+Selectfont Style Normal
+SelectFont Size 9
+
+; Filters (when active)
+;----------------------
+
+MYOFILTER 109 63                  ; Show, if used, Myofilter-Settings 4x3
+Filter MAIN 122 63
+Filter SBS 135 63
+Filter SSF 148 63
+
+
+MYOFILTER 109 8                  ; Show, if used, Myofilter-Setting rhythm
+Filter MAIN 122 8
+Filter SBS 135 8
+Filter SSF 148 8
+
+; ECG-Device
+;-----------
+SelectFont Size 8
+Device 3   2 Actual				; Actual Versions
+Device 105  2    					; AQR Version         
+PageNo 230 2                     	; Page number  
+License Phone 120 -3				; License Phone
+License Name 4 -3					; License Name
+
+; First text block
+; ----------------
+Selectfont Style Bold
+SelectFont Size  9
+Text 601 2 190		   	   			;ID:
+Text 600 2 187			   			;Patient:
+Text 12015 75 190		   			;Date
+Text 3 2 175                       ; Born:
+Text 4 2 172                       ; Age:
+Text 5 2 169                       ; Sex:
+Text 6 2 166                       ; Height/cm:
+Text 7 2 163                       ; Weight/kgs:
+;Text 8 2 171                    	; BP/mmHg:
+Text 9 2 160                       ; Med:
+Text 10 2 157                      ; Rem:
+
+;Second text block
+; ----------------
+
+Selectfont Size 10              	; Big font
+Text 11 90 176                  	; Intervals
+                                   
+Selectfont Size 9					; Standard font
+
+Text 14 90 172                     ; RR/ms
+Text 15 90 169                     ; P/ms
+Text 16 90 166                     ; PQ/ms
+Text 17 90 163                     ; QRS/ms
+Text 18 90 160                     ; QT/ms
+Text 19 90 157                     ; QTC/ms
+
+
+; Third text block
+; ----------------
+
+Selectfont Style Bold
+SelectFont Size 12
+Text 13 55 175                     ; HR/bpm
+
+Selectfont Size 10
+Text 46 55 172                     ; Axis  
+
+Selectfont Size 9
+Text 47 55 169                     ; P
+Text 48 55 166                     ; QRS
+Text 20 55 163                     ; T
+
+
+; fourth text block
+; -----------------
+SelectFont Size 10                	; select a bold font
++IfInterp
+Text 49 125 186                   	; Interpretation (bold)
++EndIf
+SelectFont Size 9                 	; select a bold font
+;Text 21 2 156                		; MTA-ID
+Text 22 125 157                  	; Validated by  
+
+
+; first variable block
+; --------------------
+
+Selectfont Style Nornal
+SelectFont Size 9
+
+
+; Patient-Name and Address
+; -----------------------
+
+Pat Num 18 190					;PATNUM
+Text 30312 18 187				;PATNAME
+;Pat Name 18 187
+Pat Recdate 85 190				;Recording Date 
+Selectfont size 8
+Text 30300 18 184				;PATADDRESS1
+Text 30301 18 181				;PATADDRESS2
+Text 30302 18 178				;PATADDRESS3
+
+Pat Born 18 175
+Pat Age 18 172
+Pat Sex 18 169
+Pat Height 18 166
+Pat Weight 18 163
+;Pat Bp 20 171
+
+SelectFont Size 9
+Pat Med 18 160
+Text 30310 18 157				;CNOTES
+;Pat Rem4 20 157
+
+
+; second variable block
+; --------------------
+
+Meas RR 110 172
+Meas PP 110 169
+Meas PQ 110 166
+Meas QRS 110 163
+Meas QT 110 160
+Meas QTC 110 157
+
+; third variable block
+; --------------------
+Meas PAX 70 169
+Meas QRSAX 70 166
+Meas TAX 70 163
+
+Selectfont Style Bold
+SelectFont Size 12
+
+Meas HR 73 175
+
+
+
+; fourth variable block
+; ---------------------
+
+Selectfont Style Normal
+SelectFont Size 8
+Interp 3 125 182 90             ; Interpretation 17 Lines
+
+
+; fourth text block
+; -----------------
+SelectFont Size 9
+Validated 150 157
+
+; -------------------------- Paint rhythm 10 seconds  ---------------------------------------------------
+
+Selectfont Style Bold
+Selectfont Size 10
+
+RHYTHM 2 7 33 1 3350 1 4250     ; Paint Rhythm Lead1 
+
+REFMARK 1 33 RhytExt              ; II
+
+
+Selectfont Style Normal
+Selectfont Size 9
+PrintRes SpeedRhythm 9 8           ; Resolution Speed for Rhythm
+PrintRes AverExt 25 8            ; Resolution for printout Rhythm
+
+
+
+; -------------------------- Paint rhythms 2.5 seconds sequentialy ---------------------------------------------------
+Selectfont Style Bold
+
+SetRes Rhythm 25; Num of mm per Second
+Selectfont Size 10
+AutoAmplitude RhythmExt 17 1 25 2 25 3 25 4 25 5 25 6 25 ; Make amplitude reduce if selected 
+;        Start  end  ?????? 
+RHYTHM 1 7 134 1 800 1 1020    	; Paint Rhythm Lead1 
+RHYTHM 2 7 106 1 800 1 1020    	; Paint Rhythm Lead2 
+RHYTHM 3 7 78 1 800 1 1020       	; Paint Rhythm Lead3 
+RHYTHM 4 60 134 801 1800 1121 2140	; Paint Rhythm Lead4 
+RHYTHM 5 60 106 801 1800 1121 2140	; Paint Rhythm Lead5 
+RHYTHM 6 60 78 801 1800 1121 2140	; Paint Rhythm Lead6 
+
+REFMARK 1 134 RhytExt             ; I
+REFMARK 1 106 RhytExt             ; II
+REFMARK 1 78 RhytExt              ; III
+
+AutoAmplitude RhythmExt 17 7 25 8 25 9 25 10 25 11 25 12 25 ; Make amplitude reduce if selected 
+;         V st Y  V end Y   V ?? Y
+RHYTHM 7 114 134 1801 2600 2241 3260    	; Paint Rhythm Lead1 
+RHYTHM 8 114 106 1801 2600 2241 3260    	; Paint Rhythm Lead2 
+RHYTHM 9 114 78 1801 2600 2241 3260       	; Paint Rhythm Lead3 
+RHYTHM 10 167 134 2701 3500 3361 4380	; Paint Rhythm Lead4 
+RHYTHM 11 167 106 2701 3500 3361 4380	; Paint Rhythm Lead5 
+RHYTHM 12 167 78 2701 3500 3361 4380	; Paint Rhythm Lead6
+
+
+
+Selectfont Style Normal
+PrintRes SpeedRhythm 9 63           ; Resolution Speed for Rhythm
+PrintRes AverExt 25 63            ; Resolution for printout Rhythm
+
+Portrait
+ShowPage
+
